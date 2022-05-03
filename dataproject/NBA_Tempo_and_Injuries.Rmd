@@ -876,7 +876,7 @@ From this correlation matrix, we can see a statistically significant linear rela
 
 ![](NBA_Tempo_and_Injuries_files/images-embed/slide43.PNG)<!-- -->
 
-From this visualization that was created using Tableau, we can see that the higher the pace, the more likely the team wins the championship. We can see that from 2017 to 2020, all the teams with higher pace won the championship, except in 2016, where the team with lower pace won.
+From this visualization that was created using Tableau, we can see that the higher the pace, the more likely the team wins the championship. We can see that from 2017 to 2020, all the teams with higher pace won the championship, except in 2016, where the team with lower pace won. It may because Cleveland Cavaliers had a smaller number of injured players in 2016, compared to Golden State Warriors.
 
 ![](NBA_Tempo_and_Injuries_files/images-embed/slide44.PNG)<!-- -->
 
