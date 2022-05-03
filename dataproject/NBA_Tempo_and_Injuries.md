@@ -25,13 +25,13 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
     -   [Shortcomings](#shortcomings)
     -   [Results and Lessons Learned](#results-and-lessons-learned)
     -   [Next Steps](#next-steps)
--   [Sources](#sources)
+-   [**Sources**](#sources)
 
 ------------------------------------------------------------------------
 
 <center>
 
-<img src="nba_logo.png" style="width:40.0%" />
+<img src="nba_logo.png?raw=true" style="width:40.0%" />
 
 </center>
 
@@ -46,8 +46,8 @@ paying out contracts to players who are unable to play due to injuries.
 
 <center>
 
-<img src="nba_hurt1.png" style="width:40.0%" />
-<img src="nba_hurt2.png" style="width:50.0%" />
+<img src="nba_hurt1.png?raw=true" style="width:40.0%" />
+<img src="nba_hurt2.png?raw=true" style="width:50.0%" />
 
 </center>
 
@@ -57,7 +57,7 @@ paying out contracts to players who are unable to play due to injuries.
 
 <center>
 
-<img src="nba_commissioner.png" style="width:20.0%" />
+<img src="nba_commissioner.png?raw=true" style="width:20.0%" />
 
 </center>
 
@@ -207,7 +207,7 @@ the average possessions for each team, and is different in each facet.
 
 ------------------------------------------------------------------------
 
-![](slide22.PNG)
+![](slide22.PNG?raw=true)
 
 This visualization created using Tableau, shows the playstyles ranked
 from seasons 2015 to 2020. We see that the playstyles: spot up, ball
@@ -453,14 +453,14 @@ players, and earned while injured and number of games missed.
 
 ------------------------------------------------------------------------
 
-![](slide43.PNG)
+![](slide43.PNG?raw=true)
 
 From this visualization that was created using Tableau, we can see that
 the higher the pace, the more likely the team wins the championship. We
 can see that from 2017 to 2020, all the teams with higher pace won the
 championship, except in 2016, where the team with lower pace won.
 
-![](slide44.PNG)
+![](slide44.PNG?raw=true)
 
 Similarly in this visualization, we can see that the fewer number of
 games missed due to injuries, the more likely the team wins the
@@ -554,7 +554,7 @@ than Los Angeles Lakers.
 
 ------------------------------------------------------------------------
 
-# Sources
+# **Sources**
 
 -   [NBA Advanced Stats](https://www.nba.com/stats/)
 -   [spotrac \| Cumulative Season Injured List By
