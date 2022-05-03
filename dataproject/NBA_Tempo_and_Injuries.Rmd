@@ -11,7 +11,7 @@ output:
 
 <center>
 
-![](nba_logo.PNG?raw=true){width=40%}
+![](nba_logo.PNG?raw=true)
 
 </center>
 

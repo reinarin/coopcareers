@@ -31,7 +31,7 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
 
 <center>
 
-<img src="nba_logo.PNG?raw=true" style="width:40.0%" />
+![](nba_logo.PNG?raw=true)
 
 </center>
 
