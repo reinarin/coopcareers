@@ -1,24 +1,13 @@
----
-title: "NBA Team Distance over Seasons"
-author: "Pod Yoana"
-output: html_document
----
-
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Libraries---------------------------------------------------------------------
 library(tidyverse)
 library(janitor)
 library(lubridate)
 library(readxl)
-```
 
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Get the data------------------------------------------------------------------
 # Speed data set
 dist_long <- read_excel("speed_long.xlsx")
-```
 
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 dist_long1 <- dist_long %>%
   select(Team, Dist_Miles, Season)
 
@@ -93,9 +82,7 @@ average_dist <- data.frame(
   variable = unique(dist_long3$Season),
   value = dist_long3$Season_Avg_Dist,
   Team = rep(unique(dist_long2$Team), each = 8))
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(dist_long2, aes(x = Season, y = Team_Avg_Dist, group = Team, color = Team)) + 
   geom_line(linetype = "dashed") + 
   geom_line(data = dist_long3, aes(x = Season, y = Season_Avg_Dist), color = "black") + 
@@ -105,4 +92,3 @@ ggplot(dist_long2, aes(x = Season, y = Team_Avg_Dist, group = Team, color = Team
        x = "Season",
        y = "Distance (miles)") +
   theme(legend.position = "bottom")
-```

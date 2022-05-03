@@ -1,19 +1,10 @@
----
-title: "NBA Seasons 2016-17 to 2020-21 Team Injuries and Cash Earned While Injured"
-author: "Pod Yoana"
-output: github_document
----
-
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Libraries---------------------------------------------------------------------
 library(tidyverse)
 library(janitor)
 library(lubridate)
 library(readxl)
 library(scales)
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Functions---------------------------------------------------------------------
 # Make a function that imports all the sheets from the Excel file
 read_excel_allsheets <- function(filename, tibble = FALSE) {
@@ -23,9 +14,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   names(x) <- sheets
   x
 }
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Get the data------------------------------------------------------------------
 # Since there are 5 sheets within each file, save each sheet as its own table
 injuries <- read_excel_allsheets("NBA_Injuries_Team.xlsx")
@@ -34,9 +23,7 @@ injury2017 <- injuries[[2]]
 injury2018 <- injuries[[3]]
 injury2019 <- injuries[[4]]
 injury2020 <- injuries[[5]]
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Initial manipulation and joining----------------------------------------------
 # Sort each of the tables by Team
 injury2016 <- injury2016 %>%
@@ -88,9 +75,7 @@ average_cash_teams <- injury_long1 %>%
 injury_long1$Season <- as.integer(injury_long1$Season)
 injury_long2$Season <- as.integer(injury_long2$Season)
 injury_long3$Season <- as.integer(injury_long3$Season)
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(injury_long1, aes(x = Earned_While_Injured, y = Team, color = Team)) + 
   geom_boxplot() + 
   labs(title = 'NBA Seasons 2016-17 to 2020-21 Cash Earned While Injured By Teams',
@@ -100,10 +85,7 @@ ggplot(injury_long1, aes(x = Earned_While_Injured, y = Team, color = Team)) +
   theme(legend.position = "none") + 
   scale_x_continuous(breaks = c(0, 25000000, 50000000, 75000000),
                      labels = c(dollar(0), dollar(25000000), dollar(50000000), dollar(75000000)))
-```
 
-
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(injury_long1, aes(x = Season, y = Earned_While_Injured, group = Team, color = Team)) + 
   geom_line(linetype = "dashed") + 
   geom_line(data = injury_long2, aes(x = Season, y = Season_Average_Earnings), color = "black") + 
@@ -115,9 +97,7 @@ ggplot(injury_long1, aes(x = Season, y = Earned_While_Injured, group = Team, col
   scale_y_continuous(breaks = c(0, 25000000, 50000000, 75000000),
                      labels = c(dollar(0), dollar(25000000), dollar(50000000), dollar(75000000))) + 
   theme(legend.position = "bottom")
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(injury_long1, aes(x = Season, y = Earned_While_Injured, group = Team, color = Team)) + 
   geom_line() + 
   facet_wrap(~Team) + 
@@ -130,15 +110,11 @@ ggplot(injury_long1, aes(x = Season, y = Earned_While_Injured, group = Team, col
   scale_y_continuous(breaks = c(0, 25000000, 50000000, 75000000),
                      labels = c(dollar(0), dollar(25000000), dollar(50000000), dollar(75000000))) + 
   theme(legend.position = "none")
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 injury_long4 <- injury_long1 %>%
   group_by(Team) %>%
   summarise(Injured_Players = sum(Players))
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(injury_long4, aes(x = Injured_Players, y = Team, color = Team)) +
   geom_bar(stat = "identity", fill = "white") + 
   labs(title = 'NBA Seasons 2016-17 to 2020-21 Number of Injured Players By Teams',
@@ -147,5 +123,3 @@ ggplot(injury_long4, aes(x = Injured_Players, y = Team, color = Team)) +
   geom_text(aes(label = Injured_Players), hjust = -0.3, color = "black") + 
   geom_text(aes(label = Team), hjust = 1.1) + 
   theme(legend.position = "none")
-  #theme_light() + 
-```

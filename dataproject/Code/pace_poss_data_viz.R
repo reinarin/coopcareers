@@ -1,13 +1,3 @@
----
-title: "NBA Seasons 1996-97 to 2020-21 Team Pace and Possessions"
-author: "Pod Yoana"
-output:
-  html_document: default
----
-
---------------------------------------------------------------------------------
-
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Libraries---------------------------------------------------------------------
 library(tidyverse)
 library(janitor)
@@ -15,9 +5,7 @@ library(lubridate)
 library(readxl)
 library(CGPfunctions)
 library(directlabels)
-```
 
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Get the data------------------------------------------------------------------
 # Pace data set
 pace <- read_excel("pace.xlsx")
@@ -50,9 +38,7 @@ colnames(poss) <- c("Season", "Atlanta_Hawks", "Boston_Celtics", "Brooklyn_Nets"
                     "Portland_Trail_Blazers", "Sacramento_Kings", 
                     "San_Antonio_Spurs", "Toronto_Raptors", "Utah_Jazz", 
                     "Washington_Wizards", "Season_Average")
-```
 
-```{r, echo = FALSE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Change Season from pace_long to character
 pace_long$Season <- as.character(pace_long$Season)
 poss_long$Season <- as.character(poss_long$Season)
@@ -101,13 +87,7 @@ average_poss_teams <- poss_long1 %>%
   arrange(Team) %>%
   mutate(team_avg = mean(Possessions, na.rm = TRUE)) %>%
   ungroup()
-```
 
-# Pace
-
-Pace is the number of possessions a team uses per game.
-
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(pace_long1, aes(x = Season, y = Pace, group = Team, color = Team)) + 
   geom_line(linetype = "dashed") + 
   geom_line(data = pace_long2, color = "black") + 
@@ -117,9 +97,7 @@ ggplot(pace_long1, aes(x = Season, y = Pace, group = Team, color = Team)) +
        x = "Season",
        y = "Pace") +
   theme(legend.position = "bottom")
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(pace_long1, aes(x = Season, y = Pace, group = Team, color = Team)) + 
   geom_line() + 
   #geom_line(data = pace_long2, color = "black") + 
@@ -132,9 +110,7 @@ ggplot(pace_long1, aes(x = Season, y = Pace, group = Team, color = Team)) +
        x = "Season",
        y = "Pace") + 
   theme(legend.position = "none")
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 newggslopegraph(dataframe = pace_long_change,
                 Times = Season,
                 Measurement = Pace,
@@ -142,15 +118,7 @@ newggslopegraph(dataframe = pace_long_change,
                 Title = "NBA Team Pace Evolution",
                 SubTitle = "Seasons 1996-97 to 2020-21",
                 Caption = NULL)
-```
 
---------------------------------------------------------------------------------
-
-# Possessions
-
-A team is in possession when a player is holding, dribbling or passing the ball. Team possession ends when the defensive team gains possession or the ball hits the rim of the offensive team.
-
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(poss_long1, aes(x = Season, y = Possessions, group = Team, color = Team)) + 
   geom_line(linetype = "dashed") + 
   geom_line(data = poss_long2, color = "black") + 
@@ -160,9 +128,7 @@ ggplot(poss_long1, aes(x = Season, y = Possessions, group = Team, color = Team))
        x = "Season",
        y = "Possessions") +
   theme(legend.position = "bottom")
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(poss_long1, aes(x = Season, y = Possessions, group = Team, color = Team)) + 
   geom_line() + 
   facet_wrap(~Team) + 
@@ -173,9 +139,7 @@ ggplot(poss_long1, aes(x = Season, y = Possessions, group = Team, color = Team))
        x = "Season",
        y = "Possessions") + 
   theme(legend.position = "none")
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 newggslopegraph(dataframe = poss_long_change,
                 Times = Season,
                 Measurement = Possessions,
@@ -183,14 +147,10 @@ newggslopegraph(dataframe = poss_long_change,
                 Title = "NBA Team Possessions Evolution",
                 SubTitle = "Seasons 1996-97 to 2020-21",
                 Caption = NULL)
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 poss_long_2018 <- poss_long %>%
   filter(Season == 1996 | Season == 2018)
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 newggslopegraph(dataframe = poss_long_2018,
                 Times = Season,
                 Measurement = Possessions,
@@ -198,4 +158,3 @@ newggslopegraph(dataframe = poss_long_2018,
                 Title = "NBA Team Possessions Evolution",
                 SubTitle = "Seasons 1996-97 to 2020-21",
                 Caption = NULL)
-```

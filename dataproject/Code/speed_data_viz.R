@@ -1,24 +1,13 @@
----
-title: "NBA Team Speed over Seasons"
-author: "Pod Yoana"
-output: html_document
----
-
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Libraries---------------------------------------------------------------------
 library(tidyverse)
 library(janitor)
 library(lubridate)
 library(readxl)
-```
 
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Get the data------------------------------------------------------------------
 # Speed data set
 speed_long <- read_excel("speed_long.xlsx")
-```
 
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 speed_long1 <- speed_long %>%
   select(Team, Avg_Speed, Season)
 
@@ -93,9 +82,7 @@ average_speed <- data.frame(
   variable = unique(speed_long3$Season),
   value = speed_long3$Season_Avg_Speed,
   Team = rep(unique(speed_long2$Team), each = 8))
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggplot(speed_long2, aes(x = Season, y = Team_Avg_Speed, group = Team, color = Team)) + 
   geom_line(linetype = "dashed") + 
   geom_line(data = speed_long3, aes(x = Season, y = Season_Avg_Speed), color = "black") + 
@@ -105,4 +92,3 @@ ggplot(speed_long2, aes(x = Season, y = Team_Avg_Speed, group = Team, color = Te
        x = "Season",
        y = "Speed") +
   theme(legend.position = "bottom")
-```

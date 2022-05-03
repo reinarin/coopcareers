@@ -1,22 +1,10 @@
----
-title: "NBA Data Project- Prepping and Joining the Datasets"
-author: "Pod Yoana"
-output:
-  pdf_document: default
-  html_document:
-    df_print: paged
----
-
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Libraries---------------------------------------------------------------------
 library(tidyverse)
 library(janitor)
 library(lubridate)
 library(readxl)
 library(writexl)
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Functions---------------------------------------------------------------------
 # Make a function that imports all the sheets from the Excel file
 read_excel_allsheets <- function(filename, tibble = FALSE) {
@@ -26,9 +14,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   names(x) <- sheets
   x
 }
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Get the data------------------------------------------------------------------
 # Since there are 6 sheets within each file, save each sheet as its own table
 
@@ -121,9 +107,7 @@ transition_3 <- transition[[3]]
 transition_4 <- transition[[4]]
 transition_5 <- transition[[5]]
 transition_6 <- transition[[6]]
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Initial manipulation and joining----------------------------------------------
 # By Playtype-------------------------------------------------------------------
 
@@ -248,7 +232,7 @@ isolation_2 <- isolation_2 %>%
   select(Team, GP, POSS, FREQ) %>%
   mutate(Type = "Isolation",
          Season = "2016-17") %>%
-    rename(TEAM = Team)
+  rename(TEAM = Team)
 isolation_3 <- isolation_3 %>%
   select(TEAM, GP, POSS, FREQ) %>%
   mutate(Type = "Isolation",
@@ -313,7 +297,7 @@ post_up_1 <- post_up_1 %>%
   select(Team, GP, POSS, FREQ) %>%
   mutate(Type = "Post_Up",
          Season = "2015-16") %>%
-    # Rename column Team to match others in the table
+  # Rename column Team to match others in the table
   rename(TEAM = Team)
 post_up_2 <- post_up_2 %>%
   select(Team, GP, POSS, FREQ) %>%
@@ -388,7 +372,7 @@ roll_man_1 <- roll_man_1 %>%
   select(Team, GP, POSS, FREQ) %>%
   mutate(Type = "Roll_Man",
          Season = "2015-16") %>%
-    # Rename column Team to match others in the table
+  # Rename column Team to match others in the table
   rename(TEAM = Team)
 roll_man_2 <- roll_man_2 %>%
   select(Team, GP, POSS, FREQ) %>%
@@ -627,4 +611,3 @@ season2020_21 <- ball_handler_6 %>%
 
 # Join all tables into one------------------------------------------------------
 nba_playtype_year <- rbind(season2015_16, season2016_17, season2017_18, season2018_19, season2019_20, season2020_21)
-```

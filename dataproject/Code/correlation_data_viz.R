@@ -1,10 +1,3 @@
----
-title: "relationship (pairs plot)"
-author: "Pod Yoana"
-output: html_document
----
-
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Libraries---------------------------------------------------------------------
 library(tidyverse)
 library(janitor)
@@ -12,9 +5,7 @@ library(lubridate)
 library(readxl)
 library(GGally)
 library(psych)
-```
 
-```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Functions---------------------------------------------------------------------
 # Make a function that imports all the sheets from the Excel file
 read_excel_allsheets <- function(filename, tibble = FALSE) {
@@ -24,9 +15,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   names(x) <- sheets
   x
 }
-```
 
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Get the data------------------------------------------------------------------
 # Speed data set
 speed_long <- read_excel("speed_long.xlsx")
@@ -70,9 +59,7 @@ injury2017 <- injuries[[2]]
 injury2018 <- injuries[[3]]
 injury2019 <- injuries[[4]]
 injury2020 <- injuries[[5]]
-```
 
-```{r, echo = FALSE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
 # Initial manipulation and joining----------------------------------------------
 # Change Season from pace_long to character
 pace_long$Season <- as.character(pace_long$Season)
@@ -148,9 +135,7 @@ df2020 <- df %>%
 rm('injuries', 'injury2016', 'injury2017', 'injury2018', 'injury2019', 'injury2020', 
    'pace', 'pace_long', 'poss', 'poss_long', 'read_excel_allsheets', 'injury_long1', 
    'pace_long1', 'poss_long1', 'speed_long', 'speed_long1')
-```
 
-```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
 ggpairs(df, columns = 3:9,
         columnLabels = c('Pace', 'Possessions', 'No. of Injured Players', 
                          'No. Games Missed', 'Earned While Injured', 
@@ -197,16 +182,14 @@ ggpairs(df2020,
                          'Avg Speed', 'Avg Distance (ft)'),
         title = "NBA Season 2020-21",
         lower = list(continuous = "smooth"))
-```
 
-```{r, fig.width = 15, warning = FALSE, message = FALSE, echo = FALSE}
 corPlot(df[,3:9],
         scale = FALSE,
         stars = TRUE,
         upper = FALSE,
         labels = c('Pace', 'Possessions', 'No. of Injured Players', 
                    'No. Games Missed', 'Earned While Injured', 
-                         'Avg Speed', 'Avg Distance (ft)'),
+                   'Avg Speed', 'Avg Distance (ft)'),
         main = "NBA Seasons 2016-17 to 2020-21")
 
 corPlot(df2016[,3:9],
@@ -215,7 +198,7 @@ corPlot(df2016[,3:9],
         upper = FALSE,
         labels = c('Pace', 'Possessions', 'No. of Injured Players', 
                    'No. Games Missed', 'Earned While Injured', 
-                         'Avg Speed', 'Avg Distance (ft)'),
+                   'Avg Speed', 'Avg Distance (ft)'),
         main = "NBA Season 2016-17")
 
 corPlot(df2017[,3:9],
@@ -224,7 +207,7 @@ corPlot(df2017[,3:9],
         upper = FALSE,
         labels = c('Pace', 'Possessions', 'No. of Injured Players', 
                    'No. Games Missed', 'Earned While Injured', 
-                         'Avg Speed', 'Avg Distance (ft)'),
+                   'Avg Speed', 'Avg Distance (ft)'),
         main = "NBA Season 2017-18")
 
 corPlot(df2018[,3:9],
@@ -233,7 +216,7 @@ corPlot(df2018[,3:9],
         upper = FALSE,
         labels = c('Pace', 'Possessions', 'No. of Injured Players', 
                    'No. Games Missed', 'Earned While Injured', 
-                         'Avg Speed', 'Avg Distance (ft)'),
+                   'Avg Speed', 'Avg Distance (ft)'),
         main = "NBA Season 2018-19")
 
 corPlot(df2019[,3:9],
@@ -242,7 +225,7 @@ corPlot(df2019[,3:9],
         upper = FALSE,
         labels = c('Pace', 'Possessions', 'No. of Injured Players', 
                    'No. Games Missed', 'Earned While Injured', 
-                         'Avg Speed', 'Avg Distance (ft)'),
+                   'Avg Speed', 'Avg Distance (ft)'),
         main = "NBA Season 2019-20")
 
 corPlot(df2020[,3:9],
@@ -251,6 +234,5 @@ corPlot(df2020[,3:9],
         upper = FALSE,
         labels = c('Pace', 'Possessions', 'No. of Injured Players', 
                    'No. Games Missed', 'Earned While Injured', 
-                         'Avg Speed', 'Avg Distance (ft)'),
+                   'Avg Speed', 'Avg Distance (ft)'),
         main = "NBA Season 2020-21")
-```
