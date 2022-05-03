@@ -29,11 +29,7 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
 
 ------------------------------------------------------------------------
 
-<center>
-
 <img src="nbalogo.PNG?raw=true" style="width:30.0%" />
-
-</center>
 
 # **Introduction**
 
@@ -44,22 +40,14 @@ injuries. Some injuries have even cost championships. However, games
 aren’t the only thing that teams lose; organizations also lose money by
 paying out contracts to players who are unable to play due to injuries.
 
-<center>
-
 <img src="nbahurt1.PNG?raw=true" style="width:40.0%" />
 <img src="nbahurt2.PNG?raw=true" style="width:50.0%" />
-
-</center>
 
 ------------------------------------------------------------------------
 
 ## Purpose
 
-<center>
-
 <img src="nbacommissioner.PNG?raw=true" style="width:20.0%" />
-
-</center>
 
 **Client**: Adam Silver, Commissioner of the National Basketball
 Association (2014-present)
