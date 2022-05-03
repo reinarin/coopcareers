@@ -29,7 +29,7 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
 
 ------------------------------------------------------------------------
 
-![](nbalogo.PNG?raw=true)
+![](images-embed/nbalogo.PNG)<!-- -->
 
 # **Introduction**
 
@@ -40,13 +40,14 @@ injuries. Some injuries have even cost championships. However, games
 aren’t the only thing that teams lose; organizations also lose money by
 paying out contracts to players who are unable to play due to injuries.
 
-![](nbahurt1.PNG?raw=true) ![](nbahurt2.PNG?raw=true)
+![](images-embed/nbahurt1.PNG)<!-- -->
+![](images-embed/nbahurt2.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
 ## Purpose
 
-![](nbacommissioner.PNG?raw=true)
+![](images-embed/nbacommissioner.PNG)<!-- -->
 
 **Client**: Adam Silver, Commissioner of the National Basketball
 Association (2014-present)
@@ -194,7 +195,7 @@ the average possessions for each team, and is different in each facet.
 
 ------------------------------------------------------------------------
 
-![](slide22.PNG?raw=true)
+![](images-embed/slide22.PNG)<!-- -->
 
 This visualization created using Tableau, shows the playstyles ranked
 from seasons 2015 to 2020. We see that the playstyles: spot up, ball
@@ -440,14 +441,14 @@ players, and earned while injured and number of games missed.
 
 ------------------------------------------------------------------------
 
-![](slide43.PNG?raw=true)
+![](images-embed/slide43.PNG)<!-- -->
 
 From this visualization that was created using Tableau, we can see that
 the higher the pace, the more likely the team wins the championship. We
 can see that from 2017 to 2020, all the teams with higher pace won the
 championship, except in 2016, where the team with lower pace won.
 
-![](slide44.PNG?raw=true)
+![](images-embed/slide44.PNG)<!-- -->
 
 Similarly in this visualization, we can see that the fewer number of
 games missed due to injuries, the more likely the team wins the

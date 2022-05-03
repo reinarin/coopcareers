@@ -9,7 +9,7 @@ output:
 
 --------------------------------------------------------------------------------
 
-![](nbalogo.PNG?raw=true)
+![](images-embed/nbalogo.PNG)<!-- -->
 
 # **Introduction**
 
@@ -17,13 +17,13 @@ output:
 
 In the NBA, team organizations have suffered tremendously due to injuries. Some injuries have even cost championships. However, games aren't the only thing that teams lose; organizations also lose money by paying out contracts to players who are unable to play due to injuries.
 
-![](nbahurt1.PNG?raw=true) ![](nbahurt2.PNG?raw=true)
+![](images-embed/nbahurt1.PNG)<!-- --> ![](images-embed/nbahurt2.PNG)<!-- -->
 
 -----
 
 ## Purpose
 
-![](nbacommissioner.PNG?raw=true)
+![](images-embed/nbacommissioner.PNG)<!-- -->
 
 **Client**: Adam Silver, Commissioner of the National Basketball Association (2014-present)
 
@@ -306,7 +306,7 @@ Here we have a data visualization of the possessions by teams. Each of the color
 
 -----
 
-![](slide22.PNG?raw=true)
+![](images-embed/slide22.PNG)<!-- -->
 
 This visualization created using Tableau, shows the playstyles ranked from seasons 2015 to 2020. We see that the playstyles: spot up, ball handler, transition, and cut are ranked highly and their ranks did not change much. We can see that the dynamic playstyles are becoming more popular than non-dynamic playstyles, such as post up, isolation, roll man, and putbacks.
 
@@ -858,11 +858,11 @@ From this correlation matrix, we can see a statistically significant linear rela
 
 -----
 
-![](slide43.PNG?raw=true)
+![](images-embed/slide43.PNG)<!-- -->
 
 From this visualization that was created using Tableau, we can see that the higher the pace, the more likely the team wins the championship. We can see that from 2017 to 2020, all the teams with higher pace won the championship, except in 2016, where the team with lower pace won.
 
-![](slide44.PNG?raw=true)
+![](images-embed/slide44.PNG)<!-- -->
 
 Similarly in this visualization, we can see that the fewer number of games missed due to injuries, the more likely the team wins the championship. We can see that from 2016 to 2019, all the teams with less games missed won the championship, except in 2020, where the team with more games missed won. That might be because Miami Heat's pace was less than Los Angeles Lakers.
 
