@@ -648,7 +648,7 @@ From the visualization, we can see a slight increase in average distance by team
   - speed and distance is missing for some players and games
   - numbers can be skewed because of players that have played small minutes
 - comparing 2013 to 2020, speed is higher in 2020
-  - peaked in 2017, though downtrending, it looks likt it's making its way back up
+  - peaked in 2017, though downtrending, it looks like it's making its way back up
 
 -----
 

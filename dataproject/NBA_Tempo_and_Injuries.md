@@ -291,7 +291,7 @@ every player, so team averages will be skewed.
     -   numbers can be skewed because of players that have played small
         minutes
 -   comparing 2013 to 2020, speed is higher in 2020
-    -   peaked in 2017, though downtrending, it looks likt it’s making
+    -   peaked in 2017, though downtrending, it looks like it’s making
         its way back up
 
 ------------------------------------------------------------------------
