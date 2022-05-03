@@ -11,7 +11,7 @@ output:
 
 <center>
 
-![](nba_logo.PNG?raw=true)
+![](nbalogo.PNG?raw=true){width=30%}
 
 </center>
 
@@ -23,7 +23,7 @@ In the NBA, team organizations have suffered tremendously due to injuries. Some 
 
 <center>
 
-![](nba_hurt1.PNG?raw=true){width=40%} ![](nba_hurt2.PNG?raw=true){width=50%}
+![](nbahurt1.PNG?raw=true){width=40%} ![](nbahurt2.PNG?raw=true){width=50%}
 
 </center>
 
@@ -33,7 +33,7 @@ In the NBA, team organizations have suffered tremendously due to injuries. Some 
 
 <center>
 
-![](nba_commissioner.PNG?raw=true){width=20%}
+![](nbacommissioner.PNG?raw=true){width=20%}
 
 </center>
 

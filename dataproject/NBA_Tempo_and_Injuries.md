@@ -31,7 +31,7 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
 
 <center>
 
-![](nba_logo.PNG?raw=true)
+<img src="nbalogo.PNG?raw=true" style="width:30.0%" />
 
 </center>
 
@@ -46,8 +46,8 @@ paying out contracts to players who are unable to play due to injuries.
 
 <center>
 
-<img src="nba_hurt1.PNG?raw=true" style="width:40.0%" />
-<img src="nba_hurt2.PNG?raw=true" style="width:50.0%" />
+<img src="nbahurt1.PNG?raw=true" style="width:40.0%" />
+<img src="nbahurt2.PNG?raw=true" style="width:50.0%" />
 
 </center>
 
@@ -57,7 +57,7 @@ paying out contracts to players who are unable to play due to injuries.
 
 <center>
 
-<img src="nba_commissioner.PNG?raw=true" style="width:20.0%" />
+<img src="nbacommissioner.PNG?raw=true" style="width:20.0%" />
 
 </center>
 
