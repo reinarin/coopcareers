@@ -9,7 +9,7 @@ output:
 
 --------------------------------------------------------------------------------
 
-![](nbalogo.PNG?raw=true){width=30%}
+![](nbalogo.PNG?raw=true)
 
 # **Introduction**
 
@@ -17,13 +17,13 @@ output:
 
 In the NBA, team organizations have suffered tremendously due to injuries. Some injuries have even cost championships. However, games aren't the only thing that teams lose; organizations also lose money by paying out contracts to players who are unable to play due to injuries.
 
-![](nbahurt1.PNG?raw=true){width=40%} ![](nbahurt2.PNG?raw=true){width=50%}
+![](nbahurt1.PNG?raw=true) ![](nbahurt2.PNG?raw=true)
 
 -----
 
 ## Purpose
 
-![](nbacommissioner.PNG?raw=true){width=20%}
+![](nbacommissioner.PNG?raw=true)
 
 **Client**: Adam Silver, Commissioner of the National Basketball Association (2014-present)
 
