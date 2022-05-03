@@ -9,21 +9,15 @@ output:
 
 --------------------------------------------------------------------------------
 
-![](NBA_Tempo_and_Injuries_files/images-embed/nbalogo.PNG)<!-- -->
-
 # **Introduction**
 
 ## Background
 
 In the NBA, team organizations have suffered tremendously due to injuries. Some injuries have even cost championships. However, games aren't the only thing that teams lose; organizations also lose money by paying out contracts to players who are unable to play due to injuries.
 
-![](NBA_Tempo_and_Injuries_files/images-embed/nbahurt1.PNG)<!-- --> ![](NBA_Tempo_and_Injuries_files/images-embed/nbahurt2.PNG)<!-- -->
-
 -----
 
 ## Purpose
-
-![](NBA_Tempo_and_Injuries_files/images-embed/nbacommissioner.PNG)<!-- -->
 
 **Client**: Adam Silver, Commissioner of the National Basketball Association (2014-present)
 
@@ -375,6 +369,26 @@ injury_long2$Season <- as.integer(injury_long2$Season)
 injury_long3$Season <- as.integer(injury_long3$Season)
 ```
 
+```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
+injury_long4 <- injury_long1 %>%
+  group_by(Team) %>%
+  summarise(Injured_Players = sum(Players))
+```
+
+```{r, fig.width = 15, fig.height = 8, echo = FALSE, results = FALSE, warning = FALSE, message = FALSE}
+ggplot(injury_long4, aes(x = Injured_Players, y = Team, color = Team)) +
+  geom_bar(stat = "identity", fill = "white") + 
+  labs(title = 'NBA Seasons 2016-17 to 2020-21 Number of Injured Players By Teams',
+       x = "Number of Injured Players",
+       y = "Team") +
+  geom_text(aes(label = Injured_Players), hjust = -0.3, color = "black") + 
+  geom_text(aes(label = Team), hjust = 1.1) + 
+  theme(legend.position = "none")
+  #theme_light() + 
+```
+
+Here we have a bar plot of the total amount of injured players by teams for seasons 2016 to 2020. We can see that Charlotte Hornets and Oklahoma City Thunder had the fewest number of injured players, while Milwaukee Bucks, Brooklyn Nets, and Dallas Mavericks had the highest number of injured players.
+
 ```{r, fig.width = 15, fig.height = 8, echo = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 ggplot(injury_long1, aes(x = Earned_While_Injured, y = Team, color = Team)) + 
   geom_boxplot() + 
@@ -430,11 +444,13 @@ From the visualization, we can see that even though it is not apparent for every
 
 -----
 
-## Key Notes: Cash earned while injured
+## Key Notes: Injuries
 
 - an increase in average cash earned while injured
-- Brooklyn Nets have the highest median cash earned while injured
-- Detroit Pistons have the lowest median cash earned while injured
+- Charlotte Hornets had the fewest amount of injuries
+- Brooklyn Nets had the highest amount of injuries
+- Brooklyn Nets had the highest median cash earned while injured
+- Detroit Pistons had the lowest median cash earned while injured
 - teams are losing a lot of money because of injuries
 
 -----

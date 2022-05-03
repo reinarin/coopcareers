@@ -11,11 +11,6 @@ library(janitor)
 library(lubridate)
 library(readxl)
 library(scales)
-library(gganimate)
-library(png)
-library(gifski)
-library(transformr)
-library(animation)
 ```
 
 ```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
@@ -101,7 +96,7 @@ ggplot(injury_long1, aes(x = Earned_While_Injured, y = Team, color = Team)) +
   labs(title = 'NBA Seasons 2016-17 to 2020-21 Cash Earned While Injured By Teams',
        x = "Cash Earned While Injured (US$)",
        y = "Team") + 
-  theme_light() + 
+  #theme_light() + 
   theme(legend.position = "none") + 
   scale_x_continuous(breaks = c(0, 25000000, 50000000, 75000000),
                      labels = c(dollar(0), dollar(25000000), dollar(50000000), dollar(75000000)))
@@ -137,62 +132,20 @@ ggplot(injury_long1, aes(x = Season, y = Earned_While_Injured, group = Team, col
   theme(legend.position = "none")
 ```
 
-```{r, warning = FALSE, message = FALSE, echo = FALSE}
-p <- ggplot(injury_long1, aes(x = Earned_While_Injured, y = Team, color = Team)) + 
-  geom_point() + 
-  theme_light() + 
-  labs(title = 'Season: {frame_time}-{frame_time+1}',
-       x = "Cash Earned While Injured (US$)",
-       y = "Team") + 
-  scale_x_continuous(breaks = c(0, 25000000, 50000000, 75000000),
-                     labels = c(dollar(0), dollar(25000000), dollar(50000000), dollar(75000000))) + 
-  theme(legend.position = "none") + 
-  transition_time(Season) + 
-  ease_aes()
-animate(p, height = 800, width = 1500)
-```
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
-# Save animation as gif
-anim_save("injury_cash1.gif", p)
+```{r, echo = TRUE, include = TRUE, results = FALSE, warning = FALSE, message = FALSE}
+injury_long4 <- injury_long1 %>%
+  group_by(Team) %>%
+  summarise(Injured_Players = sum(Players))
 ```
 
-```{r, warning = FALSE, message = FALSE, echo = FALSE}
-abc <- ggplot(injury_long1, aes(x = Season, y = Earned_While_Injured, group = Team, color = Team)) + 
-  geom_line() + 
-  theme_light() + 
-  labs(title = "NBA Seasons 2016-17 to 2020-21 Cash Earned While Injured By Teams",
-       x = "Season",
-       y = "Cash Earned While Injured (US$)") +
-  scale_y_continuous(breaks = c(0, 25000000, 50000000, 75000000),
-                     labels = c(dollar(0), dollar(25000000), dollar(50000000), dollar(75000000))) + 
-  theme(legend.position = "bottom") + 
-  geom_point() + 
-  transition_reveal(Season) + 
-  ease_aes()
-animate(abc, height = 800, width = 1500)
-```
-
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
-# Save animation as gif
-anim_save("injury_cash2.gif", abc)
-```
-
-```{r, warning = FALSE, message = FALSE, echo = FALSE}
-q <- ggplot(injury_long1, aes(x = Players, y = Games, size = Earned_While_Injured, color = Team)) + 
-  geom_point() + 
-  theme_light() + 
-  labs(title = 'Season: {frame_time}-{frame_time+1}',
-       x = "No. of Injured Players",
-       y = "No. of Games Missed") + 
-  scale_size_continuous(name = "Cash Earned While Injured (US$)",
-                        breaks = c(0, 25000000, 50000000, 75000000),
-                     labels = c(dollar(0), dollar(25000000), dollar(50000000), dollar(75000000))) + 
-  transition_time(Season) + 
-  ease_aes()
-animate(q, height = 800, width = 1000)
-```
-
-```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
-# Save animation as gif
-anim_save("injury_cash3.gif", q)
+```{r, fig.width = 15, fig.height = 8, warning = FALSE, message = FALSE, echo = FALSE}
+ggplot(injury_long4, aes(x = Injured_Players, y = Team, color = Team)) +
+  geom_bar(stat = "identity", fill = "white") + 
+  labs(title = 'NBA Seasons 2016-17 to 2020-21 Number of Injured Players By Teams',
+       x = "Number of Injured Players",
+       y = "Team") +
+  geom_text(aes(label = Injured_Players), hjust = -0.3, color = "black") + 
+  geom_text(aes(label = Team), hjust = 1.1) + 
+  theme(legend.position = "none")
+  #theme_light() + 
 ```

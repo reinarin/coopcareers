@@ -13,8 +13,7 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
 -   [**Analysis**](#analysis)
     -   [Key Notes: Pace](#key-notes-pace)
     -   [Key Notes: Possession](#key-notes-possession)
-    -   [Key Notes: Cash earned while
-        injured](#key-notes-cash-earned-while-injured)
+    -   [Key Notes: Injuries](#key-notes-injuries)
     -   [Key Notes: Speed and Distance](#key-notes-speed-and-distance)
     -   [Key Notes: Correlation](#key-notes-correlation)
     -   [Key Notes: Championships](#key-notes-championships)
@@ -29,8 +28,6 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
 
 ------------------------------------------------------------------------
 
-![](NBA_Tempo_and_Injuries_files/images-embed/nbalogo.PNG)<!-- -->
-
 # **Introduction**
 
 ## Background
@@ -40,14 +37,9 @@ injuries. Some injuries have even cost championships. However, games
 aren’t the only thing that teams lose; organizations also lose money by
 paying out contracts to players who are unable to play due to injuries.
 
-![](NBA_Tempo_and_Injuries_files/images-embed/nbahurt1.PNG)<!-- -->
-![](NBA_Tempo_and_Injuries_files/images-embed/nbahurt2.PNG)<!-- -->
-
 ------------------------------------------------------------------------
 
 ## Purpose
-
-![](NBA_Tempo_and_Injuries_files/images-embed/nbacommissioner.PNG)<!-- -->
 
 **Client**: Adam Silver, Commissioner of the National Basketball
 Association (2014-present)
@@ -204,7 +196,15 @@ change much. We can see that the dynamic playstyles are becoming more
 popular than non-dynamic playstyles, such as post up, isolation, roll
 man, and putbacks.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+
+Here we have a bar plot of the total amount of injured players by teams
+for seasons 2016 to 2020. We can see that Charlotte Hornets and Oklahoma
+City Thunder had the fewest number of injured players, while Milwaukee
+Bucks, Brooklyn Nets, and Dallas Mavericks had the highest number of
+injured players.
+
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
 This is a side-by-side box-and-whisker plot, or a box plot of the cash
 earned while injured by teams for seasons 2016-17 to 2020-21. Each of
@@ -222,7 +222,7 @@ that Golden State Warriors has the biggest IQR, and Utah Jazz has the
 smallest IQR. It seems like teams are losing a lot of money because of
 injuries.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
 
 The cash earned while injured by teams is visualized above. Each of the
 colored dashed lines represents the cash earned while injured for each
@@ -232,7 +232,7 @@ average cash earned while injured of all teams for each season.
 From the visualization, we see an increase in cash earned while injured
 over time.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
 
 Now, let’s take a closer look at the cash earned while injured by teams.
 Each of the colored dashed lines is the cash earned while injured for
@@ -247,16 +247,18 @@ Warriors, see an increase in cash earned while injured.
 
 ------------------------------------------------------------------------
 
-## Key Notes: Cash earned while injured
+## Key Notes: Injuries
 
 -   an increase in average cash earned while injured
--   Brooklyn Nets have the highest median cash earned while injured
--   Detroit Pistons have the lowest median cash earned while injured
+-   Charlotte Hornets had the fewest amount of injuries
+-   Brooklyn Nets had the highest amount of injuries
+-   Brooklyn Nets had the highest median cash earned while injured
+-   Detroit Pistons had the lowest median cash earned while injured
 -   teams are losing a lot of money because of injuries
 
 ------------------------------------------------------------------------
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
 
 The average speed by teams is visualized above. Each of the colored
 dashed lines represents the average speed for each team for seasons
@@ -270,7 +272,7 @@ drop. Also, speed is not tracked for every game and every player, so
 team averages will be skewed. Though not big, we do see a slight
 increase in average speed over time.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
 
 The average distance by teams is visualized above. Each of the colored
 dashed lines represents the average distance for each team for seasons
@@ -296,7 +298,7 @@ every player, so team averages will be skewed.
 
 ------------------------------------------------------------------------
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
 The visualization above is a pair plot. The variable names are displayed
 on the outer edges of the matrix. The scatter plot in the lower triangle
@@ -329,7 +331,7 @@ injured, it looks like they are right skewed, which means that the mean
 is greater than the median. For average speed, it looks like it is left
 skewed, which means that the mean is less than the median.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
 Here, we have a correlogram, or a correlation visualization.
 Specifically, this is a correlation matrix. A correlation matrix is used
@@ -349,7 +351,7 @@ possessions, number of games missed and number of injured players,
 earned while injured and number of injured players, and earned while
 injured and number of games missed.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
 
 We have a pair plot for season 2016-17. Looking at the scatter plot and
 loess smoother, pace and possessions, pace and number of injured
@@ -358,14 +360,14 @@ number of games missed and earned while injured have a clear positive
 linear relationship. Looking at the density plot, the distribution of
 average distance seems to be right skewed.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
 
 From this correlation matrix, we can see a statistically significant
 linear relationship between possessions and pace, number of injured
 players and pace, number of games missed and number of injured players,
 and earned while injured and number of games missed.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
 
 Here, we have a pair plot for season 2017-18. Looking at the scatter
 plot and loess smoother, pace and possessions, number of injured players
@@ -373,14 +375,14 @@ and number of games missed, number of injured players and earned while
 injured, and number of games missed and earned while injured have a
 clear positive linear relationship.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
 
 From this correlation matrix, we can see a statistically significant
 linear relationship between possessions and pace, number of games missed
 and number of injured players, earned while injured and number of
 injured players, and earned while injured and number of games missed.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-31-1.png)<!-- -->
 
 Here, we have a pair plot for season 2018-19. Looking at the scatter
 plot and loess smoother, pace and possessions, pace and average speed,
@@ -388,7 +390,7 @@ number of injured players and number of games missed, number of injured
 players and earned while injured, and number of games missed and earned
 while injured have a clear positive linear relationship.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-32-1.png)<!-- -->
 
 From this correlation matrix, we can see a statistically significant
 linear relationship between possessions and pace, average speed and
@@ -396,21 +398,21 @@ pace, number of games missed and number of injured players, earned while
 injured and number of injured players, and earned while injured and
 number of games missed.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-31-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-33-1.png)<!-- -->
 
 Here, we have a pair plot for season 2019-20. Looking at the scatter
 plot and loess smoother, number of injured players and number of games
 missed, number of games missed and earned while injured, and average
 speed and average distance have a clear positive linear relationship.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-32-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
 
 From this correlation matrix, we can see a statistically significant
 linear relationship between number of games missed and number of injured
 players, earned while injured and number of games missed, and average
 distance and average speed.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-33-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-35-1.png)<!-- -->
 
 Here, we have a pair plot for season 2020-21. Looking at the scatter
 plot and loess smoother, pace and possessions, pace and average speed,
@@ -419,7 +421,7 @@ positive linear relationship. Possessions and number of injured, number
 of injured players and average speed, and number of injured players and
 average distance have a clear negative linear relationship.
 
-![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
+![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-36-1.png)<!-- -->
 
 From this correlation matrix, we can see a statistically significant
 linear relationship between possessions and pace, average speed and
