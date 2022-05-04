@@ -1,9 +1,4 @@
-COOP Careers
-
-Data Analytics Apprenticeship
-
-Spring 2022
-
+**COOP Careers Data Analytics Apprenticeship Spring 2022**
 Cohort 194
 
 **Pod Captain:** Yoana Boleaga
