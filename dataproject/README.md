@@ -5,10 +5,10 @@ Spring 2022 Cohort 194
 **Pod Captain:** Yoana Boleaga
 
 **Pod members:**
-  - Ao Kong
-  - Christian Uriostegui
-  - Kaiden Vega
-  - Reina Li
+ - Ao Kong
+ - Christian Uriostegui
+ - Kaiden Vega
+ - Reina Li
 
 ----------
 
