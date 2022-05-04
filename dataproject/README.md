@@ -1,4 +1,4 @@
-## Data Project Assignment Details
+## Data Analysis and Visualization Project Details
 
 With your pod group, you’ll create a brief and comprehensive presentation showcasing your observations, insights, and recommendations from a data set provided to you, or one of your choosing for a mock client. 
 
@@ -34,8 +34,12 @@ Spring 2022 Cohort 194
 
 ----------
 
+# NBA Tempo & Injuries: Analyzing the Effects on Performance and Winnings
+
 ## Brief
 
-For our pod, we decided to choose a dataset outside of the preselected datasets and perform our data analysis on NBA game statistics. We developed the data analysis project to analyze the impact of tempo and injuries on the performance of 30 National Basketball Association (NBA) teams. We also explored the patterns and relationships between pace, possessions, number of injured players, number of games missed, earned while injured, average speed, and average distance with championship winnings.
+For our pod, we decided to choose a dataset outside of the preselected datasets and perform our data analysis on National Basketball Association (NBA) game statistics. We developed the data analysis project to analyze the impact of tempo and injuries on the performance of 30 NBA teams. We also explored the patterns and relationships between pace, possessions, number of injured players, number of games missed, earned while injured, average speed, and average distance with championship winnings.
 
-[View our slide deck- NBA Tempo & Injuries: Analyzing the Effects on Performance and Winnings](https://docs.google.com/presentation/d/1WhIo0Hkeu05fPMJh3KJ1lUIpVH9W1o2XYcaSJjb_PGQ/edit?usp=sharing)
+[View our data analysis and visualization project](https://github.com/reinarin/coopcareers/blob/main/dataproject/NBA_Tempo_and_Injuries.md)
+
+[View our slide deck](https://docs.google.com/presentation/d/1WhIo0Hkeu05fPMJh3KJ1lUIpVH9W1o2XYcaSJjb_PGQ/edit?usp=sharing)
