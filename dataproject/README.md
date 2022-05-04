@@ -1,5 +1,6 @@
-**COOP Careers Data Analytics Apprenticeship Spring 2022**
-Cohort 194
+**COOP Careers Data Analytics Apprenticeship**
+
+Spring 2022 Cohort 194
 
 **Pod Captain:** Yoana Boleaga
 
@@ -32,6 +33,8 @@ Each Pod within each Cohort must choose a dataset that is unique from other Pods
 -**Bonus challenge:** Scrape your own data! (If you have the know-how!)
 
 ----------
+
+## Brief
 
 For our pod, we decided to choose a dataset outside of the preselected datasets and perform our data analysis on NBA game statistics. We developed the data analysis project to analyze the impact of tempo and injuries on the performance of 30 National Basketball Association (NBA) teams. We also explored the patterns and relationships between pace, possessions, number of injured players, number of games missed, earned while injured, average speed, and average distance with championship winnings.
 
