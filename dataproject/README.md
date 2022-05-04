@@ -24,13 +24,13 @@ Each Pod within each Cohort must choose a dataset that is unique from other Pods
 
 ### Dataset Guidelines
 
--Datasets must be over 500 rows 
-  -Note: adding different data sets together doesn’t count
--Project should be **fairly original**; the more common/general the problem, the harder it will be to make original insights 
-  -E.g., topics like voter turnout, political patterns, COVID, etc. are all commonly studied topics (by big-time data scientists), so it will be difficult to a) not be influenced by their conclusions, and b) interpret the data through an original lens and come up with novel recommendations
--Data should be as **specific** as possible
-  -E.g., if you’re looking at high school graduation rates, look at the county level instead of the national level
--**Bonus challenge:** Scrape your own data! (If you have the know-how!)
+- Datasets must be over 500 rows 
+  - *Note:* adding different data sets together doesn’t count
+- Project should be **fairly original**; the more common/general the problem, the harder it will be to make original insights 
+  - *E.g.*, topics like voter turnout, political patterns, COVID, etc. are all commonly studied topics (by big-time data scientists), so it will be difficult to a) not be influenced by their conclusions, and b) interpret the data through an original lens and come up with novel recommendations
+- Data should be as **specific** as possible
+  - *E.g.*, if you’re looking at high school graduation rates, look at the county level instead of the national level
+- **Bonus challenge:** Scrape your own data! (If you have the know-how!)
 
 ----------
 
