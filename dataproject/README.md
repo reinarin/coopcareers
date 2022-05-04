@@ -1,17 +1,3 @@
-## COOP Careers Data Analytics Apprenticeship
-
-Spring 2022 Cohort 194
-
-**Pod Captain:** Yoana Boleaga
-
-**Pod members:**
- - Ao Kong
- - Christian Uriostegui
- - Kaiden Vega
- - Reina Li
-
-----------
-
 ## Data Project Assignment Details
 
 With your pod group, you’ll create a brief and comprehensive presentation showcasing your observations, insights, and recommendations from a data set provided to you, or one of your choosing for a mock client. 
@@ -31,6 +17,20 @@ Each Pod within each Cohort must choose a dataset that is unique from other Pods
 - Data should be as **specific** as possible
   - *E.g.*, if you’re looking at high school graduation rates, look at the county level instead of the national level
 - **Bonus challenge:** Scrape your own data! (If you have the know-how!)
+
+----------
+
+**COOP Careers Data Analytics Apprenticeship**
+
+Spring 2022 Cohort 194
+
+**Pod Captain:** Yoana Boleaga
+
+**Pod members:**
+ - Ao Kong
+ - Christian Uriostegui
+ - Kaiden Vega
+ - Reina Li
 
 ----------
 
