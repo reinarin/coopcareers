@@ -1,4 +1,4 @@
-**COOP Careers Data Analytics Apprenticeship**
+## COOP Careers Data Analytics Apprenticeship
 
 Spring 2022 Cohort 194
 
