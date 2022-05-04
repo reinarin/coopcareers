@@ -918,12 +918,12 @@ Similarly in this visualization, we can see that the fewer number of games misse
 ## Recommendations
 
 - healthy players = less likely to suffer from injuries
-  - pre-season physical examinations
-  - athletic coach/trainer/specialist services to maintain proper fitness
-  - proper stretching before going to play
+  - full body scans throughout the season
+  - body-injury prevention during pre-season, possible end of year report
+  - ensure that traveling between games is equal among teams
   - adequate amount of time off and breaks to rest
   - physical therapy and post-injury treatment services
-- wear well-fitted, basketball gear and equipment
+  - cryotherapy to reduce muscle and joint pain
 
 -----
 
@@ -969,3 +969,6 @@ Similarly in this visualization, we can see that the fewer number of games misse
 - [The Sporting News | NBA Playoffs 2021: Brooklyn Nets suffer another injury setback in Game 4 loss](https://www.sportingnews.com/in/nba/news/nba-playoffs-2021-brooklyn-nets-suffer-another-injury-setback-in-game-4-loss-kyrie-irving/z8bq0xg4db881fpyxf7rfdnqk)
 - [Hack a Stat | Learn a Stat: Possessions and Pace](https://hackastat.eu/en/learn-a-stat-possessions-and-pace/#:~:text=The%20answer%20is%20no%3B%20Pace%20%28and%20possessions%29%20are,League%20Pace%20is%20around%2074%20possessions%20per%20game.)
 - [University of Rochester Medical Center | Orthopaedics & Physical Performance: Sports Medicine: Basketball Injuries](https://www.urmc.rochester.edu/orthopaedics/sports-medicine/basketball-injuries.cfm)
+- [ESPN | The cutting edge: Injury prediction and prevention](https://www.espn.com/nba/story/_/id/16009403/cutting-edge-injury-prediction-prevention)
+- [The Guardian | How sleep and jet-lag influences success in the travel-crazy NBA](https://www.theguardian.com/sport/2018/oct/26/sleep-nba-effects-basketball)
+- [Medium | “It’s a Very Big Issue”: Inside the NBA’s Sleeping Problem](https://medium.com/basketball-university/inside-the-nbas-sleeping-problem-cb5d34968b5f)

@@ -505,13 +505,13 @@ than Los Angeles Lakers.
 ## Recommendations
 
 -   healthy players = less likely to suffer from injuries
-    -   pre-season physical examinations
-    -   athletic coach/trainer/specialist services to maintain proper
-        fitness
-    -   proper stretching before going to play
+    -   full body scans throughout the season
+    -   body-injury prevention during pre-season, possible end of year
+        report
+    -   ensure that traveling between games is equal among teams
     -   adequate amount of time off and breaks to rest
     -   physical therapy and post-injury treatment services
--   wear well-fitted, basketball gear and equipment
+    -   cryotherapy to reduce muscle and joint pain
 
 ------------------------------------------------------------------------
 
@@ -572,3 +572,10 @@ than Los Angeles Lakers.
 -   [University of Rochester Medical Center \| Orthopaedics & Physical
     Performance: Sports Medicine: Basketball
     Injuries](https://www.urmc.rochester.edu/orthopaedics/sports-medicine/basketball-injuries.cfm)
+-   [ESPN \| The cutting edge: Injury prediction and
+    prevention](https://www.espn.com/nba/story/_/id/16009403/cutting-edge-injury-prediction-prevention)
+-   [The Guardian \| How sleep and jet-lag influences success in the
+    travel-crazy
+    NBA](https://www.theguardian.com/sport/2018/oct/26/sleep-nba-effects-basketball)
+-   [Medium \| “It’s a Very Big Issue”: Inside the NBA’s Sleeping
+    Problem](https://medium.com/basketball-university/inside-the-nbas-sleeping-problem-cb5d34968b5f)
