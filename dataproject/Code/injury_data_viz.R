@@ -115,11 +115,14 @@ injury_long4 <- injury_long1 %>%
   group_by(Team) %>%
   summarise(Injured_Players = sum(Players))
 
+avg_injured_players <- mean(injury_long4$Injured_Players)
+
 ggplot(injury_long4, aes(x = Injured_Players, y = Team, color = Team)) +
   geom_bar(stat = "identity", fill = "white") + 
   labs(title = 'NBA Seasons 2016-17 to 2020-21 Number of Injured Players By Teams',
        x = "Number of Injured Players",
        y = "Team") +
+  geom_vline(xintercept = avg_injured_players, linetype = "dashed") +
   geom_text(aes(label = Injured_Players), hjust = -0.3, color = "black") + 
   geom_text(aes(label = Team), hjust = 1.1) + 
   theme(legend.position = "none")

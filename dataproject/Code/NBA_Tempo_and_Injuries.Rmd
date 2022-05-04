@@ -373,6 +373,8 @@ injury_long3$Season <- as.integer(injury_long3$Season)
 injury_long4 <- injury_long1 %>%
   group_by(Team) %>%
   summarise(Injured_Players = sum(Players))
+
+avg_injured_players <- mean(injury_long4$Injured_Players)
 ```
 
 ```{r, fig.width = 15, fig.height = 8, echo = FALSE, results = FALSE, warning = FALSE, message = FALSE}
@@ -381,13 +383,14 @@ ggplot(injury_long4, aes(x = Injured_Players, y = Team, color = Team)) +
   labs(title = 'NBA Seasons 2016-17 to 2020-21 Number of Injured Players By Teams',
        x = "Number of Injured Players",
        y = "Team") +
+  geom_vline(xintercept = avg_injured_players, linetype = "dashed") +
   geom_text(aes(label = Injured_Players), hjust = -0.3, color = "black") + 
   geom_text(aes(label = Team), hjust = 1.1) + 
   theme(legend.position = "none")
   #theme_light() + 
 ```
 
-Here we have a bar plot of the total amount of injured players by teams for seasons 2016 to 2020. We can see that Charlotte Hornets and Oklahoma City Thunder had the fewest number of injured players, while Milwaukee Bucks, Brooklyn Nets, and Dallas Mavericks had the highest number of injured players.
+Here we have a bar plot of the total amount of injured players by teams for seasons 2016 to 2020. We can see that Charlotte Hornets and Oklahoma City Thunder had the fewest number of injured players, while Milwaukee Bucks, Brooklyn Nets, and Dallas Mavericks had the highest number of injured players. 16 of the 30 teams had more than average number of injured players. That's a lot of injuries!
 
 ```{r, fig.width = 15, fig.height = 8, echo = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 ggplot(injury_long1, aes(x = Earned_While_Injured, y = Team, color = Team)) + 

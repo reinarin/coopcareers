@@ -202,7 +202,8 @@ Here we have a bar plot of the total amount of injured players by teams
 for seasons 2016 to 2020. We can see that Charlotte Hornets and Oklahoma
 City Thunder had the fewest number of injured players, while Milwaukee
 Bucks, Brooklyn Nets, and Dallas Mavericks had the highest number of
-injured players.
+injured players. 16 of the 30 teams had more than average number of
+injured players. That’s a lot of injuries!
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
