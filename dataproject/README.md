@@ -34,7 +34,7 @@ Spring 2022 Cohort 194
 
 ----------
 
-# NBA Tempo & Injuries: Analyzing the Effects on Performance and Winnings
+## NBA Tempo & Injuries: Analyzing the Effects on Performance and Winnings
 
 ## Brief
 
