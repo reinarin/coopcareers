@@ -40,4 +40,4 @@ For our pod, we decided to choose a dataset outside of the preselected datasets 
 
 [View our data analysis and visualization project](https://github.com/reinarin/coopcareers/blob/main/dataproject/NBA_Tempo_and_Injuries.md)
 
-[View our slide deck]()
+[View our slide deck](https://docs.google.com/presentation/d/1YiDQbfstJ3npk1hWXVu_98dp8N0-qchGN2seszlGhvs/edit?usp=sharing)
