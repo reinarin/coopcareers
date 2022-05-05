@@ -7,22 +7,20 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
     -   [Purpose](#purpose)
 -   [**Data Set**](#data-set)
     -   [Dataset](#dataset)
-    -   [Pace and Possession](#pace-and-possession)
-    -   [Injuries](#injuries)
-    -   [Performance](#performance)
+    -   [Key Metrics in Championship
+        Teams](#key-metrics-in-championship-teams)
 -   [**Analysis**](#analysis)
-    -   [Key Notes: Pace](#key-notes-pace)
-    -   [Key Notes: Possession](#key-notes-possession)
-    -   [Key Notes: Injuries](#key-notes-injuries)
-    -   [Key Notes: Speed and Distance](#key-notes-speed-and-distance)
-    -   [Key Notes: Correlation](#key-notes-correlation)
-    -   [Key Notes: Championships](#key-notes-championships)
+    -   [Pace](#pace)
+    -   [Possessions](#possessions)
+    -   [Injuries](#injuries)
+    -   [Speed](#speed)
+    -   [Distance](#distance)
+    -   [Correlation](#correlation)
+    -   [Championship Success](#championship-success)
 -   [**Conclusion**](#conclusion)
-    -   [Observations](#observations)
-    -   [Insights](#insights)
+    -   [Observations & Insights](#observations--insights)
     -   [Recommendations](#recommendations)
     -   [Shortcomings](#shortcomings)
-    -   [Results and Lessons Learned](#results-and-lessons-learned)
     -   [Next Steps](#next-steps)
 -   [**Sources**](#sources)
 
@@ -32,30 +30,24 @@ Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
 
 ## Background
 
-In the NBA, team organizations have suffered tremendously due to
-injuries. Some injuries have even cost championships. However, games
-aren’t the only thing that teams lose; organizations also lose money by
-paying out contracts to players who are unable to play due to injuries.
+Player injuries have historically ruined finals matches. Teams that have
+either been on the verge of a deep playoff run or even a championship
+missed out due to missing a key player. This is not just a cost to the
+fans but also the organizations who have to continue to pay players
+during this period. We believe that an increase in tempo has likely led
+to higher chances of injury. In our study, we will present our research,
+insights, and possible solutions.
 
 ------------------------------------------------------------------------
 
 ## Purpose
 
-**Client**: Adam Silver, Commissioner of the National Basketball
-Association (2014-present)
-
--   Identify trends of different game statistics:
-    -   pace
-    -   possessions
-    -   speed
-    -   distance
-    -   number of games missed due to injuries
-    -   number of injured players
-    -   cash earned while injured
-    -   playstyles
--   explore patterns/relationships between tempo, injuries, and winnings
--   provide recommendations on how the NBA can reduce injuries overall
-    and save money on injured players’ contracts
+We hope that with our recommendations, the commissioner and team owners
+can take actionable steps to reduce injuries. To do that, we will be
+examining different game statistics such as tempo (pace and
+possessions), games and players missed due to injury as well as cash
+earned during this period. and seeing how this affects championship
+success
 
 ------------------------------------------------------------------------
 
@@ -64,48 +56,34 @@ Association (2014-present)
 ## Dataset
 
 -   30 NBA teams
--   playstyles (seasons 2015-16 to 2021-21)
--   speed and distance (seasons 2013-14 to 2020-21)
--   pace and possessions (seasons 1996-97 to 2020-21)
--   injuries and money earned while injured (seasons 2016-17 to 2021-21)
+-   playstyles
+-   speed and distance
+-   pace and possessions
+-   injuries and money earned while injured
 -   season performance
 
 ------------------------------------------------------------------------
 
-## Pace and Possession
+## Key Metrics in Championship Teams
 
--   **pace** = (possessions/minutes) \* 40
+-   **possession** : counted every time a player scores, misses the
+    shot, turns the ball over, or gets fouled
+-   **pace** = (possessions/minutes) \* 48
+-   **injuries** among teams in the finals
 
--   **possession** : the action of a player getting the ball and the
-    play ends in a field goal/free throw made, opponent rebound, or a
-    turnover
-
--   examine trends between pace and possession over time
-
--   find a potential correlation between pace and possession
-
-------------------------------------------------------------------------
-
-## Injuries
-
--   teams with highest injuries
--   financial losses due to injuries (league paying injured players with
-    a contract who do not play)
--   examine a potential correlation between tempo and injuries
-
-------------------------------------------------------------------------
-
-## Performance
-
--   examine the performance of teams that have made it to the playoff
-    finals within our time frame
--   find out if there is a correlation between:
-    -   tempo and performance
-    -   injuries and performance
+For our study we’ll be examining NBA teams in the finals between
+2016-2020 and look at key metrics such as: **Possession** which is
+counted every time a player scores, misses the shot, turns the ball over
+or gets fouled; **Pace** which provides the amount of possessions in a
+48 minute period (average NBA game). If tempo is increasing we will also
+see this reflected in these two statistics. We will also look at
+injuries among teams in the finals.
 
 ------------------------------------------------------------------------
 
 # **Analysis**
+
+## Pace
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
@@ -137,14 +115,7 @@ their team average pace.
 
 ------------------------------------------------------------------------
 
-## Key Notes: Pace
-
--   a steady increase in the league over time
--   apparent in every single NBA team
--   all teams in the 2020 season have a pace greater than their team
-    average pace
-
-------------------------------------------------------------------------
+## Possessions
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
@@ -155,10 +126,10 @@ teams for each season.
 
 From the visualization, we see two big dips in 1998 and 2011. The reason
 for the dips in 1998 and 2011 is because the games were cut short due to
-boycotts and negotiations for contracts. We also observe lower
-possessions for 2019 and 2020. That may be due to COVID-19, since they
-played less games. Without the big drops in 1998 and 2011, and in 2019
-and 2020, we can see a small increase in possessions.
+player negotiations for contracts. We also observe lower possessions for
+2019 and 2020. That may be due to COVID-19, since they played less
+games. Without the big drops in 1998 and 2011, and in 2019 and 2020, we
+can see a small increase in possessions.
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
@@ -178,32 +149,16 @@ the average possessions for each team, and is different in each facet.
 
 ------------------------------------------------------------------------
 
-## Key Notes: Possession
-
--   a steady increase over time
--   dips observed
-    -   1998 and 2011- contract negotiations
-    -   2019 and 2020- less games played due to COVID-19
-
-------------------------------------------------------------------------
-
-![](NBA_Tempo_and_Injuries_files/images-embed/slide22.PNG)<!-- -->
-
-This visualization created using Tableau, shows the playstyles ranked
-from seasons 2015 to 2020. We see that the playstyles: spot up, ball
-handler, transition, and cut are ranked highly and their ranks did not
-change much. We can see that the dynamic playstyles are becoming more
-popular than non-dynamic playstyles, such as post up, isolation, roll
-man, and putbacks.
+## Injuries
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
 
-Here we have a bar plot of the total amount of injured players by teams
-for seasons 2016 to 2020. We can see that Charlotte Hornets and Oklahoma
-City Thunder had the fewest number of injured players, while Milwaukee
-Bucks, Brooklyn Nets, and Dallas Mavericks had the highest number of
-injured players. 16 of the 30 teams had more than average number of
-injured players. That’s a lot of injuries!
+Here we have a bar plot of the total number of injured players by teams
+for 2016 to 2020. We see that Charlotte Hornets and Oklahoma City
+Thunder had the fewest number of injured players, while Milwaukee Bucks,
+Brooklyn Nets, and Dallas Mavericks had the highest number of injured
+players. 16 of the teams had more than the average number of injured
+players. That’s a lot of injuries!
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
@@ -216,12 +171,9 @@ displays the interquartile range (IQR), and lone points are outliers.
 From this visualization, we can see that Brooklyn Nets has the highest
 median cash earned while injured. This may be because more injuries
 caused more money to be lost. Brooklyn Nets also has a very large
-outlier. We also observe that Detroit Pistons has the lowest median cash
-earned while injured. This may be because the team didn’t lose as much
-money as other teams because they had less injuries. We can also see
-that Golden State Warriors has the biggest IQR, and Utah Jazz has the
-smallest IQR. It seems like teams are losing a lot of money because of
-injuries.
+outlier. We also observe that Detroit Pistons have the lowest median
+cash earned due to less injuries. We can also see that Golden State
+Warriors has the biggest IQR, and Utah Jazz has the smallest IQR.
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
 
@@ -244,20 +196,12 @@ injured for each team, and is different in each facet.
 
 From the visualization, we can see that even though it is not apparent
 for every team, some teams, like Brooklyn Nets and Golden State
-Warriors, see an increase in cash earned while injured.
+Warriors, see an increase in cash earned while injured. It seems like
+teams are losing a lot of money because of injuries.
 
 ------------------------------------------------------------------------
 
-## Key Notes: Injuries
-
--   an increase in average cash earned while injured
--   Charlotte Hornets had the fewest amount of injuries
--   Brooklyn Nets had the highest amount of injuries
--   Brooklyn Nets had the highest median cash earned while injured
--   Detroit Pistons had the lowest median cash earned while injured
--   teams are losing a lot of money because of injuries
-
-------------------------------------------------------------------------
+## Speed
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
 
@@ -267,11 +211,13 @@ dashed lines represents the average speed for each team for seasons
 all teams for each season.
 
 From the visualization, we see the average speed of Cleveland Cavaliers
-dropped in 2018 and 2019. That may be because NBA tracked one player who
-only played one game, and that player’s speed made the team’s average
-drop. Also, speed is not tracked for every game and every player, so
-team averages will be skewed. Though not big, we do see a slight
-increase in average speed over time.
+dropped in 2018 and 2019 because the NBA tracked one player’s speed who
+only played one game, causing the team average to drop. Though not big,
+we do see a slight increase in average speed over time.
+
+------------------------------------------------------------------------
+
+## Distance
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
 
@@ -281,23 +227,12 @@ dashed lines represents the average distance for each team for seasons
 all teams for each season.
 
 From the visualization, we can see a slight increase in average distance
-by teams over time. Also, distance is not tracked for every game and
-every player, so team averages will be skewed.
+by teams over time. Speed and distance are not tracked for every game
+and every player, so team averages will be skewed.
 
 ------------------------------------------------------------------------
 
-## Key Notes: Speed and Distance
-
--   players have more mileage
--   the distance in games have increased
-    -   speed and distance is missing for some players and games
-    -   numbers can be skewed because of players that have played small
-        minutes
--   comparing 2013 to 2020, speed is higher in 2020
-    -   peaked in 2017, though downtrending, it looks like it’s making
-        its way back up
-
-------------------------------------------------------------------------
+## Correlation
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
@@ -428,77 +363,59 @@ From this correlation matrix, we can see a statistically significant
 linear relationship between possessions and pace, average speed and
 pace, number of injured players and possessions, average speed and
 number of injured players, average distance and number of injured
-players, and earned while injured and number of games missed.
+players, and earned while injured and number of games missed. It is
+interesting to see a statistically significant negative relationship
+between average speed and distance with number of injured players.
 
 ------------------------------------------------------------------------
 
-## Key Notes: Correlation
-
--   **number of games missed** and **earned while injured** have a
-    ***strong*** positive linear relationship
--   **pace** and **possessions** have a positive linear relationship
--   **number of games missed** and **number of injured players** have a
-    positive linear relationship
--   **earned while injured** and **number of injured players** have a
-    positive linear relationship
-
-------------------------------------------------------------------------
+## Championship Success
 
 ![](NBA_Tempo_and_Injuries_files/images-embed/slide43.PNG)<!-- -->
 
 From this visualization that was created using Tableau, we can see that
-the higher the pace, the more likely the team wins the championship. We
-can see that from 2017 to 2020, all the teams with higher pace won the
-championship, except in 2016, where the team with lower pace won. It may
-because Cleveland Cavaliers had a smaller number of injured players in
-2016, compared to Golden State Warriors.
+the higher the pace, the more likely the team wins the championship.
+From 2017 to 2020, all the teams with higher pace won the championship,
+except in 2016, where the Cavaliers had lower pace and won, due to a
+smaller number of injured players compared to Golden State. The crown
+indicates the champion team.
 
 ![](NBA_Tempo_and_Injuries_files/images-embed/slide44.PNG)<!-- -->
 
-Similarly in this visualization, we can see that the fewer number of
-games missed due to injuries, the more likely the team wins the
-championship. We can see that from 2016 to 2019, all the teams with less
-games missed won the championship, except in 2020, where the team with
-more games missed won. That might be because Miami Heat’s pace was less
-than Los Angeles Lakers.
-
-------------------------------------------------------------------------
-
-## Key Notes: Championships
-
--   champions seem to either have a faster pace or less injuries
--   **insight**: the higher the pace, the more likely the team wins the
-    championship
--   **insight**: the fewer the number of games missed, the more likely
-    they win the championship
--   though not sole factor, tempo and team health plays a role in
-    winning a championship
+Similarly in this visualization, the fewer number of games missed due to
+injuries, the more likely the team wins the championship. In 2016 to
+2019, all the teams with less games missed won the championship, except
+in 2020, where the Lakers missed more games and won, due to a faster
+pace compared to Miami.
 
 ------------------------------------------------------------------------
 
 # **Conclusion**
 
-## Observations
+## Observations & Insights
 
 -   pace, possessions, speed, distance, and cash earned while injured
     increased over time
 -   high correlation between number of games missed and cash earned
     while injured
--   dynamic plays steadily became more popular as compared to
-    non-dynamic plays
 -   champion teams between seasons 2016-17 to 2020-21 tended to have the
     advantage in either pace or health
-
-------------------------------------------------------------------------
-
-## Insights
-
 -   contract negotiations and pandemic/health concerns led to a decrease
     in team possessions in 1998, 2011, 2019, and 2020
 -   the more injured players, the higher the number of games missed due
     to injuries, the more money the team loses
 -   the higher the pace and the fewer the number of games missed due to
     injuries, the more likely the team wins the championship
+
+To wrap everything up, we had a couple of important observations and
+insights. Our key insights were that the higher the pace, the more
+likely the team wins the championship and the fewer number of games
+missed, the more likely they were to win the championship as well.
+Champion teams between 2016 and 2020 tended to have an advantage in
+either pace or health. We observed that pace, possessions, speed,
+distance, and cash earned while injured all increased over time. The
+more injured players there are and the higher the number of games
+missed, the more money the team loses.
 
 ------------------------------------------------------------------------
 
@@ -513,6 +430,24 @@ than Los Angeles Lakers.
     -   physical therapy and post-injury treatment services
     -   cryotherapy to reduce muscle and joint pain
 
+We recommend the commissioner, Adam Silver, and team owners to take care
+of the players because healthy players are less likely to suffer from
+injuries. One of our recommendations is to do full body scans throughout
+the season. We found this information from an article that discussed a
+study about how these scans had biometric readings on players bodies
+during certain basketball motions. It would show which parts of the body
+were under more strain, and which parts were weak or strong. This would
+help players know which parts of their body to train or take more care
+of to prevent injuries. In addition, we recommend body-injury prevention
+during the pre-season with an end of the season report. We also
+recommend the NBA ensure that traveling between games is equal among
+teams to give players enough time to rest. Certain teams travel for
+longer durations due to location, which can mess up their sleep,
+circadian rhythm, and thus their performance and chances of injury.
+Players should receive adequate amounts of time off and rest. If players
+do get injured, they should be treated appropriately with physical
+therapy services and cryotherapy to reduce muscle and joint pain.
+
 ------------------------------------------------------------------------
 
 ## Shortcomings
@@ -526,24 +461,26 @@ than Los Angeles Lakers.
 -   teams play differently during playoffs
     -   our study only looked at statistics of regular seasons
 
-------------------------------------------------------------------------
-
-## Results and Lessons Learned
-
--   generally faster paced games lead to more injuries and win towards
-    the championships
--   deciding what metrics to include
--   finding ways to display the data
--   what or what not to include
+Some shortcomings we experienced are that some of the data sets we used
+were incomplete due to missing years and not all statistics were
+tracked. Because of this, certain calculations may be skewed. We also
+only looked at the statistics for regular seasons and not the playoffs.
+Teams play differently during the playoff so that can be worth exploring
+further.
 
 ------------------------------------------------------------------------
 
 ## Next Steps
 
--   smaller range of seasons
--   specific playstyles
--   specific teams
--   dive deeper into the data by analyzing player data
+-   find overlapping datasets to generate stronger insights
+-   search for other indicators of tempo such as touches per play
+-   look at playoff performance data
+-   further examine individual player data
+
+If we were given more time, we would love to find overlapping datasets
+to generate stronger insights, analyze other indicators of tempo such as
+touches per play, look at playoff performance data, and further examine
+individual player data.
 
 ------------------------------------------------------------------------
 
