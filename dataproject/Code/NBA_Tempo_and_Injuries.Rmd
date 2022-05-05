@@ -1,7 +1,7 @@
 ---
 title: "NBA Tempo & Injuries: Analyzing the Effects on Performance and Winnings"
 subtitle: "COOP Data Analytics Data Project"
-author: "Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega"
+author: "Ao Kong, Christian Uriostegui, Kaiden Vega, Reina Li"
 output:
   github_document:
     toc: true

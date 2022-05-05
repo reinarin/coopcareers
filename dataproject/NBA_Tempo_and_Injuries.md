@@ -1,6 +1,6 @@
 NBA Tempo & Injuries: Analyzing the Effects on Performance and Winnings
 ================
-Reina Li, Christian Uriostegui, Ao Kong, Kaiden Vega
+Ao Kong, Christian Uriostegui, Kaiden Vega, Reina Li
 
 -   [**Introduction**](#introduction)
     -   [Background](#background)
