@@ -46,8 +46,8 @@ We hope that with our recommendations, the commissioner and team owners
 can take actionable steps to reduce injuries. To do that, we will be
 examining different game statistics such as tempo (pace and
 possessions), games and players missed due to injury as well as cash
-earned during this period. and seeing how this affects championship
-success
+earned during this period, and seeing how these affect championship
+success.
 
 ------------------------------------------------------------------------
 
