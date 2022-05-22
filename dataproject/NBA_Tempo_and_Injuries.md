@@ -92,14 +92,14 @@ represents the pace for each team for seasons 1996-97 to 2020-21. The
 black solid line represents the average pace of all teams for each
 season.
 
-From the visualization, we see an increase in pace for NBA team over
+From the visualization, we see an increase in pace for NBA teams over
 time.
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 To further support the previous visualization, the evolution of team
 pace from seasons 1996 to 2020 is visualized above. As mentioned
-earlier, we see an increase in pace for NBA team over time.
+earlier, we see an increase in pace for NBA teams over time.
 
 ![](NBA_Tempo_and_Injuries_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
