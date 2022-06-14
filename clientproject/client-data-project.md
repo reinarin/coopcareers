@@ -351,6 +351,13 @@ average response of 3.22.
 
 ![](client-data-project_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
 
+The following two data visualizations are a heatmap and a density plot
+that shows the distribution of the survey responses.
+
+![](client-data-project_files/images-embed/heatmap.PNG)<!-- -->
+
+![](client-data-project_files/images-embed/densityplot.PNG)<!-- -->
+
 Next, we wanted to analyze if there were any correlations between the
 survey questions. We observed strong positive correlations between
 understanding the mission/purpose, user-friendliness and website
