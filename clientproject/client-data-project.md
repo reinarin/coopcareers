@@ -134,7 +134,7 @@ However, as discussed before, you are hitting your age demographic. A
 recommendation to increase this demographic could be linked to marketing
 strategies such as social media.
 
-![](company-demographic.png)
+![](client-data-project_files/images-embed/company-demographic.PNG)<!-- -->
 
 Your website focuses more on promoting through LinkedIn.
 
@@ -143,7 +143,7 @@ the top social media channel that directs traffic. What we recommend is
 looking for opportunities to engage audiences through Youtube or other
 networks.
 
-![](cybersecurityguide-social.png)
+![](client-data-project_files/images-embed/cybersecurityguide-social.PNG)<!-- -->
 
 Now looking at [cyberdegrees.org’s](cyberdegrees.org) social media
 distribution, LinkedIn is the top social media that directs traffic to
@@ -156,7 +156,7 @@ Something to note is that Reddit directs the least amount of traffic to
 [cyberdegrees.org](cyberdegrees.org), so it might not be the best social
 media to use.
 
-![](cyberdegrees-social.png)
+![](client-data-project_files/images-embed/cyberdegrees-social.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -172,9 +172,9 @@ City area, Washington DC area, and the San Francisco Bay area. We also
 saw that your audience possessed varying levels of seniority in their
 workplace.
 
-![](linkedin-location.png)
+![](client-data-project_files/images-embed/linkedin-location.PNG)<!-- -->
 
-![](linkedin-seniority.png)
+![](client-data-project_files/images-embed/linkedin-seniority.PNG)<!-- -->
 
 We can see that most of them are already in the tech industry, although
 we do see a good amount of them coming from other fields. So basically,
@@ -185,9 +185,9 @@ and hopefully move up in the industry, while you are also getting a good
 amount of people trying to use the information you’re giving to them to
 possibly transition over to the cybersecurity field.
 
-![](linkedin-jobfunction.png)
+![](client-data-project_files/images-embed/linkedin-jobfunction.PNG)<!-- -->
 
-![](linkedin-industry.png)
+![](client-data-project_files/images-embed/linkedin-industry.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -208,7 +208,7 @@ the best time to post is on Mondays to Wednesdays, Fridays, and
 Saturdays at 9am, with Tuesdays and Wednesdays being the best days to
 post, and Sundays being the worst day.
 
-![](best-day-time-social.png)
+![](client-data-project_files/images-embed/best-day-time-social.PNG)<!-- -->
 
 TikTok has become a growing platform for tech related careers. It is a
 starting point for many to learn about how to break into the tech world.
@@ -227,7 +227,7 @@ will draw in those audiences. Last but not least, highlighting the free
 resources that’s available on your site would increase your website
 visitors.
 
-![](tiktok-age.png)
+![](client-data-project_files/images-embed/tiktok-age.PNG)<!-- -->
 
 The following is a screenshot of the amount of views for TikTok content
 based on tech and cybersecurity topics. We wanted to point out
@@ -240,9 +240,9 @@ that content creators use to promote their services and products. This
 is why we see TikTok as a promising platform to increase engagement and
 grow your audience.
 
-![](tiktok-tech.png)
+![](client-data-project_files/images-embed/tiktok-tech.PNG)<!-- -->
 
-![](tiktok-cybersecurity.png)
+![](client-data-project_files/images-embed/tiktok-cybersecurity.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -254,7 +254,7 @@ search engine optimization (SEO). This strategy involves carefully
 choosing strategies, techniques, tactics, content, and keywords to
 attract your audience of interest.
 
-![](seo.png)
+![](client-data-project_files/images-embed/seo.PNG)<!-- -->
 
 As mentioned, to improve your reach, you might consider the follow
 strategies:
@@ -276,9 +276,9 @@ like ***cybersecurity degree*** and ***cybersecurity certificate*** as
 titles on your posts to bring more organic traffic to the website. This
 in turn would improve your ranking in Google.
 
-![](keyword-1.PNG)
+![](client-data-project_files/images-embed/keyword-1.PNG)<!-- -->
 
-![](keyword-2.PNG)
+![](client-data-project_files/images-embed/keyword-2.PNG)<!-- -->
 
 We examined other cybersecurity websites and identified strengths that
 could inspire future strategy on your site in aim to also influence your
@@ -413,6 +413,8 @@ example which we acquired from [cyberdegrees.org](cyberdegrees.org). As
 you can see here, the resources stand out, have a quick description, and
 keywords that will attract the correct audience, but also overall
 improve your place in Google searches (SEO).
+
+![](client-data-project_files/images-embed/example.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 

@@ -549,6 +549,8 @@ If everything is labeled by categories of interest, this will decrease the chanc
 
 To help you visualize what the resources page can look like, here’s an example which we acquired from [cyberdegrees.org](cyberdegrees.org). As you can see here, the resources stand out, have a quick description, and keywords that will attract the correct audience, but also overall improve your place in Google searches (SEO).
 
+![](example.png)
+
 ----------
 
 # **Conclusion**
