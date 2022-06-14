@@ -22,7 +22,7 @@ The Data Analytics curriculum is split "hard" and "soft" skills—and every succ
   - Tableau
   - Python
   - [Data project](https://github.com/reinarin/coopcareers/tree/main/dataproject)
-  - Client project
+  - [Client project](https://github.com/reinarin/coopcareers/tree/main/clientproject)
 - **HEART:** Develop your strengths, personal story, and professional network. **/50hrs**
   - Communication
   - Identifying your Strengths
