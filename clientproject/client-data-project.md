@@ -354,9 +354,9 @@ average response of 3.22.
 The following two data visualizations are a heatmap and a density plot
 that shows the distribution of the survey responses.
 
-![](client-data-project_files/images-embed/heatmap.PNG)<!-- -->
+![](client-data-project_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
-![](client-data-project_files/images-embed/densityplot.PNG)<!-- -->
+![](client-data-project_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
 
 Next, we wanted to analyze if there were any correlations between the
 survey questions. We observed strong positive correlations between
@@ -369,7 +369,7 @@ for having background in cybersecurity do not predict the other
 responses. This makes sense because being familiar with cybersecurity
 does not affect a website’s UX design.
 
-![](client-data-project_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](client-data-project_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
 In addition to those four questions, we also asked the visitors for
 areas of improvement for the website. Some suggestions we wanted to
 highlight include:
