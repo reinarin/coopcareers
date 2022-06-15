@@ -23,16 +23,24 @@
 
 ## Client Data Analysis and Visualization Project Details
 
-**in progress**
+The Client Project is an end of program **group project** that serves as a **hands-on learning experience** for COOPers to practice their **skills** and gain **client facing experience**.
+
+**For COOPers**
+- Accountability for learning program material and deliverables
+- Collaboration across teams and a client facing experience
+- Tech relevant and shareable story for future interviews
+
+**For Clients**
+- Provide our partner businesses promotional work & material
+- Network with aspiring digital marketers & other partner businesses 
+- Tangible resources and improvements to business/organization
 
 ----------
 
 ## Cybersecurity Client Data Project
 
-## Brief
-
-**in progress**
-
 [View our data analysis and visualization project](https://github.com/reinarin/coopcareers/blob/main/clientproject/client-data-project.md)
 
 [View our slide deck]()
+
+[View R Shiny app]()
