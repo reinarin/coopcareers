@@ -1,25 +1,12 @@
 ---
 title: "Client Data Project: Cybersecurity Company"
 author: "Cohort 194"
-output: html_document
+output:
+  github_document:
+    toc: true
 ---
 
-- [**Introduction**](#introduction)
-  - [Goals and Objectives](#goals-and-objectives)
-- [**Data Set**](#data-set)
-  - [Dataset](#dataset)
-- [**Analysis**](#analysis)
-  - [Website Breakdown](#website-breakdown)
-  - [Competitors](#competitors)
-  - [Audience](#audience)
-  - [Social Media](#social-media)
-  - [SEO](#seo)
-  - [UX Design](#ux-design)
-- [**Conclusion**](#conclusion)
-  - [Observations and Insights](#observations-and-insights)
-  - [Recommendations](#recommendations)
-
-----------
+**Note:** Please note that our cohort was assigned an actual cybersecurity company. However, the data was considered company property and a proprietary secret, even though some of the data originated from customers' private behavior. So we have removed all instances of the company's name when sharing this project.
 
 # **Introduction**
 
@@ -74,7 +61,6 @@ library(polycor)
 library(corrplot)
 ```
 
-
 # **Analysis**
 
 ## Website Breakdown
@@ -120,7 +106,6 @@ summary_df1 <- read.csv("summary_df1.csv")
 # Manipulate data-----
 summary_df1$Date <- as.Date(summary_df1$Date, "%Y-%m-%d")
 ```
-
 
 ```{r, echo = FALSE, results = FALSE, warning = FALSE, message = FALSE, fig.width = 12}
 # Data visualization-----
@@ -182,7 +167,6 @@ You do have visitors that are coming back. The spikes could be linked to certain
 # Load data-----
 summary_df <- read.csv("summary_df.csv")
 ```
-
 
 ```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
 # Manipulate data-----
@@ -280,17 +264,17 @@ Your audience consists of 37.86% female, and 62.14% male. Your website also has 
 
 However, as discussed before, you are hitting your age demographic. A recommendation to increase this demographic could be linked to marketing strategies such as social media.
 
-![](company-demographic.png)
+![](client-data-project_files/images-embed/company-demographic1.PNG)<!-- -->
 
 Your website focuses more on promoting through LinkedIn.
 
 In [cybersecurityguide.org's](cybersecurityguide.org) case, Facebook is the top social media channel that directs traffic. What we recommend is looking for opportunities to engage audiences through Youtube or other networks.
 
-![](cybersecurityguide-social.png)
+![](client-data-project_files/images-embed/cybersecurityguide-social1.PNG)<!-- -->
 
 Now looking at [cyberdegrees.org's](cyberdegrees.org) social media distribution, LinkedIn is the top social media that directs traffic to the site. Unlike [cybersecurityguide.org](cybersecurityguide.org), LinkedIn is the cause of over 90% of social media traffic for the site. It can be helpful to look more into [cyberdegrees.org's](cyberdegrees.org) activity on LinkedIn to increase direct traffic to your site, since your company also uses LinkedIn. Something to note is that Reddit directs the least amount of traffic to [cyberdegrees.org](cyberdegrees.org), so it might not be the best social media to use.
 
-![](cyberdegrees-social.png)
+![](client-data-project_files/images-embed/cyberdegrees-social1.PNG)<!-- -->
 
 ----------
 
@@ -300,15 +284,15 @@ Now we're going to take a deeper look into your LinkedIn followers. As a side no
 
 From the data that you provided, we saw that most of your audience on LinkedIn are from big cities with huge tech presence like the New York City area, Washington DC area, and the San Francisco Bay area. We also saw that your audience possessed varying levels of seniority in their workplace.
 
-![](linkedin-location.png)
+![](client-data-project_files/images-embed/linkedin-location1.PNG)<!-- -->
 
-![](linkedin-seniority.png)
+![](client-data-project_files/images-embed/linkedin-seniority1.PNG)<!-- -->
 
 We can see that most of them are already in the tech industry, although we do see a good amount of them coming from other fields. So basically, your LinkedIn data shows us that your website is reaching the right target audience that you've told us you wanted to reach. People from varying levels in the industry are following you to improve their skills and hopefully move up in the industry, while you are also getting a good amount of people trying to use the information you're giving to them to possibly transition over to the cybersecurity field.
 
-![](linkedin-jobfunction.png)
+![](client-data-project_files/images-embed/linkedin-jobfunction1.PNG)<!-- -->
 
-![](linkedin-industry.png)
+![](client-data-project_files/images-embed/linkedin-industry1.PNG)<!-- -->
 
 ----------
 
@@ -316,17 +300,17 @@ We can see that most of them are already in the tech industry, although we do se
 
 To address the issue of lack of engagement, we recommend that your company follow the recommended time to post for each of the social media platforms. This data is from [Sprout Social](https://sproutsocial.com/) and it is a social media management and intelligence tool for brands. Now keep in mind these times are based on the CT time zone. According to Sprout Social, the best time to post on LinkedIn is on Tuesdays from 10am to noon, with Wednesdays and and Thursdays being the best days and the weekend being the worst days. For Instagram, the best time to post is on Mondays at 11am, Tuesdays and Wednesdays from 10am to 1pm, and on Thursdays and Fridays at 10am and 11am. The best days to post are Tuesdays and Wednesdays, and the worst day is on Sunday. As for Twitter, the best time to post is on Mondays to Wednesdays, Fridays, and Saturdays at 9am, with Tuesdays and Wednesdays being the best days to post, and Sundays being the worst day.
 
-![](best-day-time-social.png)
+![](client-data-project_files/images-embed/best-day-time-social.PNG)<!-- -->
 
 TikTok has become a growing platform for tech related careers. It is a starting point for many to learn about how to break into the tech world.  And here is why it’s a promising platform. There’s 1 billion monthly users worldwide and of that 1 billion, about 138 million are monthly users in the U.S alone. This is a great platform for your company to draw in audience. As far as age demographics, 29.5 % of the users are of age 20-29 and 16.4% are of age 30-39. This about 47% of the US monthly users, which should be your target audiences because they are the people that are are looking for a career or a career change. We strongly believe having a strong presence on TikTok will help increase organic traffic on your site, but it is important to follow a specific strategy. For example, speaking and highlighting the possibility of a high paying career in cybersecurity as well as job security through video contents will draw in those audiences. Last but not least, highlighting the free resources that’s available on your site would increase your website visitors.
 
-![](tiktok-age.png)
+![](client-data-project_files/images-embed/tiktok-age1.PNG)<!-- -->
 
 The following is a screenshot of the amount of views for TikTok content based on tech and cybersecurity topics. We wanted to point out specifically the amount of views TikTok videos have for tech and cyber-related content. In the first image, the circled portion represents the tech hashtags which show a total of 6 billion views for related tech contents. In the second image, it shows about 570 million views for cybersecurity. These two examples are one of many hashtags that content creators use to promote their services and products. This is why we see TikTok as a promising platform to increase engagement and grow your audience.
 
-![](tiktok-tech.png)
+![](client-data-project_files/images-embed/tiktok-tech1.PNG)<!-- -->
 
-![](tiktok-cybersecurity.png)
+![](client-data-project_files/images-embed/tiktok-cybersecurity1.PNG)<!-- -->
 
 ----------
 
@@ -334,7 +318,7 @@ The following is a screenshot of the amount of views for TikTok content based on
 
 In addition to social media and marketing, a key part of expanding is the retention of the site's audience. This involves the practice of search engine optimization (SEO). This strategy involves carefully choosing strategies, techniques, tactics, content, and keywords to attract your audience of interest.
 
-![](seo.png)
+![](client-data-project_files/images-embed/seo1.PNG)<!-- -->
 
 As mentioned, to improve your reach, you might consider the follow strategies:
 
@@ -348,9 +332,9 @@ As mentioned, to improve your reach, you might consider the follow strategies:
 
 In regards to the particular keywords and phrases for the SEO of your website, we recommend incorporating metadata tags and using keywords like ***cybersecurity degree*** and ***cybersecurity certificate*** as titles on your posts to bring more organic traffic to the website. This in turn would improve your ranking in Google.
 
-![](keyword-1.PNG)
+![](client-data-project_files/images-embed/keyword-1.PNG)<!-- -->
 
-![](keyword-2.PNG)
+![](client-data-project_files/images-embed/keyword-2.PNG)<!-- -->
 
 We examined other cybersecurity websites and identified strengths that could inspire future strategy on your site in aim to also influence your on and off-page SEO score.
 
@@ -471,6 +455,64 @@ plot(likert(survey_df_Recommend), legend.position = "right") +
   labs(subtitle = paste("n = ", nrow(survey_df_Recommend)))
 ```
 
+The following two data visualizations are a heatmap and a density plot that shows the distribution of the survey responses.
+
+```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
+# Load data-----
+survey_df1 <- read.csv("ux-survey.csv")
+```
+
+```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
+survey_df1 <- survey_df1 %>%
+  select(-Timestamp)
+
+survey_df1$Mission <- survey_df1$How.clear.was.the.mission.purpose.of.the.website.
+survey_df1$Navigate <- survey_df1$How.easy.user.friendly.was.it.to.navigate.the.website.
+survey_df1$Familiar <- survey_df1$How.familiar.are.you.with.Cyber.Security.
+survey_df1$Recommend <- survey_df1$How.likely.are.you.to.recommend.this.website.
+survey_df2 <- survey_df1[6:9]
+
+survey_df2$Mission <- factor(survey_df2$Mission,
+                             levels = c("1", "2", "3", "4", "5"),
+                             ordered = TRUE)
+survey_df2$Navigate <- factor(survey_df2$Navigate,
+                             levels = c("1", "2", "3", "4", "5"),
+                             ordered = TRUE)
+survey_df2$Familiar <- factor(survey_df2$Familiar,
+                             levels = c("1", "2", "3", "4", "5"),
+                             ordered = TRUE)
+survey_df2$Recommend <- factor(survey_df2$Recommend,
+                             levels = c("1", "2", "3", "4", "5"),
+                             ordered = TRUE)
+
+names(survey_df2)[names(survey_df2) == "Mission"] <- "How clear was the mission/purpose of the website?"
+
+names(survey_df2)[names(survey_df2) == "Navigate"] <- "How easy/user-friendly was it to navigate the website?"
+
+names(survey_df2)[names(survey_df2) == "Familiar"] <- "How familiar are you with Cyber Security?"
+
+names(survey_df2)[names(survey_df2) == "Recommend"] <- "How likely are you to recommend this website?"
+```
+
+```{r, echo = FALSE, results = FALSE, warning = FALSE, message = FALSE, fig.width = 12}
+plot(likert(survey_df2),
+            type = "heat",
+            low.color = "white",
+            high.color = "blue",
+            text.color = "black",
+            text.size = 4,
+            wrap = 50) +
+  labs(subtitle = paste("n = ", nrow(survey_df2)))
+```
+
+```{r, echo = FALSE, results = FALSE, warning = FALSE, message = FALSE, fig.width = 12}
+plot(likert(survey_df2),
+     type = "density",
+     facet = TRUE,
+     bw = 0.5) +
+  labs(subtitle = paste("n = ", nrow(survey_df2)))
+```
+
 Next, we wanted to analyze if there were any correlations between the survey questions. We observed strong positive correlations between understanding the mission/purpose, user-friendliness and website navigation, and recommending the site. This indicates that positive responses of one question frequently occurred with positive responses of another question. On the other hand, we observed a weaker positive correlation for familiarity of cybersecurity, indicating that responses for having background in cybersecurity do not predict the other responses. This makes sense because being familiar with cybersecurity does not affect a website’s UX design.
 
 ```{r, echo = TRUE, include = FALSE, results = FALSE, warning = FALSE, message = FALSE}
@@ -549,7 +591,7 @@ If everything is labeled by categories of interest, this will decrease the chanc
 
 To help you visualize what the resources page can look like, here’s an example which we acquired from [cyberdegrees.org](cyberdegrees.org). As you can see here, the resources stand out, have a quick description, and keywords that will attract the correct audience, but also overall improve your place in Google searches (SEO).
 
-![](example.png)
+![](client-data-project_files/images-embed/example1.PNG)<!-- -->
 
 ----------
 
