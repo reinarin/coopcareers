@@ -134,7 +134,7 @@ However, as discussed before, you are hitting your age demographic. A
 recommendation to increase this demographic could be linked to marketing
 strategies such as social media.
 
-![](client-data-project_files/images-embed/company-demographic.PNG)<!-- -->
+![](client-data-project_files/images-embed/company-demographic1.PNG)<!-- -->
 
 Your website focuses more on promoting through LinkedIn.
 
@@ -143,7 +143,7 @@ the top social media channel that directs traffic. What we recommend is
 looking for opportunities to engage audiences through Youtube or other
 networks.
 
-![](client-data-project_files/images-embed/cybersecurityguide-social.PNG)<!-- -->
+![](client-data-project_files/images-embed/cybersecurityguide-social1.PNG)<!-- -->
 
 Now looking at [cyberdegrees.org’s](cyberdegrees.org) social media
 distribution, LinkedIn is the top social media that directs traffic to
@@ -156,7 +156,7 @@ Something to note is that Reddit directs the least amount of traffic to
 [cyberdegrees.org](cyberdegrees.org), so it might not be the best social
 media to use.
 
-![](client-data-project_files/images-embed/cyberdegrees-social.PNG)<!-- -->
+![](client-data-project_files/images-embed/cyberdegrees-social1.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -172,9 +172,9 @@ City area, Washington DC area, and the San Francisco Bay area. We also
 saw that your audience possessed varying levels of seniority in their
 workplace.
 
-![](client-data-project_files/images-embed/linkedin-location.PNG)<!-- -->
+![](client-data-project_files/images-embed/linkedin-location1.PNG)<!-- -->
 
-![](client-data-project_files/images-embed/linkedin-seniority.PNG)<!-- -->
+![](client-data-project_files/images-embed/linkedin-seniority1.PNG)<!-- -->
 
 We can see that most of them are already in the tech industry, although
 we do see a good amount of them coming from other fields. So basically,
@@ -185,9 +185,9 @@ and hopefully move up in the industry, while you are also getting a good
 amount of people trying to use the information you’re giving to them to
 possibly transition over to the cybersecurity field.
 
-![](client-data-project_files/images-embed/linkedin-jobfunction.PNG)<!-- -->
+![](client-data-project_files/images-embed/linkedin-jobfunction1.PNG)<!-- -->
 
-![](client-data-project_files/images-embed/linkedin-industry.PNG)<!-- -->
+![](client-data-project_files/images-embed/linkedin-industry1.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -227,7 +227,7 @@ will draw in those audiences. Last but not least, highlighting the free
 resources that’s available on your site would increase your website
 visitors.
 
-![](client-data-project_files/images-embed/tiktok-age.PNG)<!-- -->
+![](client-data-project_files/images-embed/tiktok-age1.PNG)<!-- -->
 
 The following is a screenshot of the amount of views for TikTok content
 based on tech and cybersecurity topics. We wanted to point out
@@ -254,7 +254,7 @@ search engine optimization (SEO). This strategy involves carefully
 choosing strategies, techniques, tactics, content, and keywords to
 attract your audience of interest.
 
-![](client-data-project_files/images-embed/seo.PNG)<!-- -->
+![](client-data-project_files/images-embed/seo1.PNG)<!-- -->
 
 As mentioned, to improve your reach, you might consider the follow
 strategies:
@@ -421,7 +421,7 @@ you can see here, the resources stand out, have a quick description, and
 keywords that will attract the correct audience, but also overall
 improve your place in Google searches (SEO).
 
-![](client-data-project_files/images-embed/example.PNG)<!-- -->
+![](client-data-project_files/images-embed/example1.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
