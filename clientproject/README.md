@@ -33,6 +33,6 @@
 
 **in progress**
 
-[View our data analysis and visualization project]()
+[View our data analysis and visualization project](https://github.com/reinarin/coopcareers/blob/main/clientproject/client-data-project.md)
 
 [View our slide deck]()
