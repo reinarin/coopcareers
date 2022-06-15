@@ -352,7 +352,7 @@ average response of 3.22.
 ![](client-data-project_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
 
 The following two data visualizations are a heatmap and a density plot
-that shows the distribution of the survey responses.
+that show the distribution of the survey responses.
 
 ![](client-data-project_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
