@@ -295,9 +295,9 @@ on and off-page SEO score.
 **Cybrary Strengths**
 
 -   Variety Of content, which includes:
--   Webinars
--   Case Studies
--   Beginner content
+    -   Webinars
+    -   Case Studies
+    -   Beginner content
 
 ------------------------------------------------------------------------
 
