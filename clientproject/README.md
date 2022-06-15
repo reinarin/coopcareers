@@ -43,4 +43,4 @@ The Client Project is an end of program **group project** that serves as a **han
 
 [View our slide deck]()
 
-[View R Shiny app]()
+[View R Shiny app](https://reinarin.shinyapps.io/Client-Data-Project/)
