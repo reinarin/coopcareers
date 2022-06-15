@@ -240,9 +240,9 @@ that content creators use to promote their services and products. This
 is why we see TikTok as a promising platform to increase engagement and
 grow your audience.
 
-![](client-data-project_files/images-embed/tiktok-tech.PNG)<!-- -->
+![](client-data-project_files/images-embed/tiktok-tech1.PNG)<!-- -->
 
-![](client-data-project_files/images-embed/tiktok-cybersecurity.PNG)<!-- -->
+![](client-data-project_files/images-embed/tiktok-cybersecurity1.PNG)<!-- -->
 
 ------------------------------------------------------------------------
 
