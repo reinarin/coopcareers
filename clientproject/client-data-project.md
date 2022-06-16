@@ -1,4 +1,4 @@
-Client Data Project: Cybersecurity Company
+Cybersecurity Client: Exploration of Digital Marketing Techniques to Increase Engagement
 ================
 Cohort 194
 
