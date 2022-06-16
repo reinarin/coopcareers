@@ -37,10 +37,10 @@ The Client Project is an end of program **group project** that serves as a **han
 
 ----------
 
-## Cybersecurity Client Data Project
+## Cybersecurity Client: Exploration of Digital Marketing Techniques to Increase Engagement
 
 [View our data analysis and visualization project](https://github.com/reinarin/coopcareers/blob/main/clientproject/client-data-project.md)
 
 [View our slide deck](https://docs.google.com/presentation/d/1oIZPVjIqc86Ey1oKHJ6BmkxvgktH8PmWLudyz1B7wVw/edit?usp=sharing)
 
-[View R Shiny app](https://reinarin.shinyapps.io/Client-Data-Project/)
+[View the R Shiny app I created](https://reinarin.shinyapps.io/Client-Data-Project/)
