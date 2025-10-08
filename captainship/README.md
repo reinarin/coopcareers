@@ -1,8 +1,8 @@
-3x Lead Captain, Data Analytics / Fall 2024, Spring 2025, Fall 2025
+**3x Lead Captain, Data Analytics** / Fall 2024, Spring 2025, Fall 2025
 
-3x Senior Captain, Data Analytics / Spring 2023, Fall 2023, Spring 2024
+**3x Senior Captain, Data Analytics** / Spring 2023, Fall 2023, Spring 2024
 
-1x Captain, Data Analytics / Fall 2022
+**1x Captain, Data Analytics** / Fall 2022
 
 ## **Overview**
 
