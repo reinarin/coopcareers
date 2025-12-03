@@ -10,7 +10,7 @@ As a Lead Captain, I optimized the Capstone Project curriculum using R and Table
 
 ## **Repository Purpose**
 
-**Update (Dec 3, 2025):** I removed a number of files from this repository to prevent their use without my permission and to ensure proper attribution.
+**Update (Dec 3, 2025):** I removed the Data Analytics Capstone Project files to prevent their use without my permission and to ensure proper attribution. If you'd like to use any of these files, feel free to contact me.
 
 This repository showcases the original instructional materials I developed and refined during my captainship at COOP Careers. I streamlined the Capstone Project for multiple NYC Data Analytics cohorts (Fall 2024, Spring 2025, and Fall 2025) by expanding and restructuring the provided dataset, allowing fellows to practice JOINs and VLOOKUPs and to generate deeper, more meaningful insights and visualizations. I also created mock final deliverables and slide decks to guide consistent expectations and improve data storytelling across projects.
 
