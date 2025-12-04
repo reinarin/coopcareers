@@ -6,7 +6,7 @@
 
 ## **Overview**
 
-As a Lead Captain, I optimized the Capstone Project curriculum using R and Tableau by creating an additional dataset, a mock final deliverable, and instructor training resources that ensured consistent implementation across 22 cohorts. I led four solo Tableau refresher sessions for over 140 students, reviewing visualization and dashboard design concepts, which resulted in a 90% improvement in proficiency based on feedback and project completion rates. I also facilitated two SQL training sessions using Jupyter Notebook with DuckDB, providing an interactive walkthrough that helped more than 135 students strengthen their query-writing skills through a “solve the mystery” assignment. In addition, I conducted a solo Excel workshop for 20 students on XLOOKUP as a modern alternative to VLOOKUP, enhancing lookup accuracy and overall data efficiency.
+As a Lead Captain, I optimized the Capstone Project curriculum using R and Tableau by creating an additional dataset, a mock final deliverable, and instructor training resources that ensured consistent implementation across 26 cohorts. I led four solo Tableau refresher sessions for over 140 students, reviewing visualization and dashboard design concepts, which resulted in a 90% improvement in proficiency based on feedback and project completion rates. I also facilitated three SQL training sessions using Jupyter Notebook with DuckDB, providing an interactive walkthrough that helped more than 150 students strengthen their query-writing skills through a “solve the mystery” assignment. In addition, I conducted a solo Excel workshop for 20 students on XLOOKUP as a modern alternative to VLOOKUP, enhancing lookup accuracy and overall data efficiency.
 
 ## **Repository Purpose**
 
